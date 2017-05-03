@@ -1,0 +1,42 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            MK
+tagline:          'Simplicity is the ultimate sophistication.'
+description:      'A simple blog regarding Azure, Bots, ASP.NET, Azure, Angular and other random stuffs. (English & Türkçe)'
+url:              https://mehmetkut.github.io
+baseurl:          /
+
+author:
+  name:           'Mehmet Kut'
+  url:            https://github.com/mehmetkut
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/mehmetkut
+
+gems: [jekyll-paginate, jekyll-gist]
+
+social:
+  twitter:        mehmetkut
+  
+permalink:        /:year/:month/:title/
+
+exclude: ["_app",
+          "Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json"]
+
+kramdown:
+  auto_ids: true

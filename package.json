@@ -1,0 +1,27 @@
+{
+  "name": "mehmetkut.github.io",
+  "version": "1.0.0",
+  "description": "A Simple Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetkut/mehmetkut.github.io.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Ankit Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehmetkut/mehmetkut.github.io/issues"
+  },
+  "homepage": "https://github.com/mehmetkut/mehmetkut.github.io#readme",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-uglifycss": "~1.0.6"
+  }
+}
