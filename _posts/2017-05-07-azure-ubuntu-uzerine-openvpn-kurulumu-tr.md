@@ -13,6 +13,7 @@ Kendi VPN sunucunuzu kurmanın ve kullanmanın avantajı, verilerinizin nereye g
 Kendi kurulumunuz dışında bir VPN servisi satın aldığınızda, hizmeti aldığınız yere güvenmeniz gerekmektedir.
 
 Azure üzerinde yapmanın avantajı,
+
 * Bulut hizmeti kullanmanın avantajı.
 * Donanım altyapısıyla ilgili endişelenmenizin gerekmemesi.
 * Tüketdiğiniz kadar ödeme yapmanızdır.
