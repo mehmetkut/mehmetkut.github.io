@@ -20,5 +20,5 @@ Azure üzerinde yapmanın avantajı,
 
 Kurulum sonucu ücretsiz kullanım için, OpenVPN lisansının izin verdiği en fazla aynı anda 2 kullanıcıdır.
 Daha fazla aynı anda bağlantı isterseniz OpenVPN lisanslarına gözatmanız gerekiyor. Bu yazıdaki amacımız kendi kullanımımız için VPN sunucusu
-kurmak olduğundan aynı anda 2 yeterli olacaktır. Siz ve en sevdiğiniz arkadaşınız kullanabilir.
+kurmak olduğundan aynı anda 2 yeterli olacaktır. Siz ve en sevdiğiniz arkadaşınız kullanabilir. 
 
