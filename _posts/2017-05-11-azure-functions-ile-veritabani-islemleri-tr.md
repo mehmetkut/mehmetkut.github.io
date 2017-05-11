@@ -10,8 +10,8 @@ Bu yazımda basit bir senaryo üzerinden **Azure Function** ile veritabanı işl
 
 ### Senaryo 
 
-Bizim için önemli bir görevi yerine getiren bir **Azure Function** var. Bun Azure Function çeşitli uygulamalar tarafından çağırılmakta.
-Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir kayıt atıp olan biteni kayıt etmek istiyoruz.
+Bizim için önemli bir görevi yerine getiren bir **Azure Function** var. Bu Azure Function çeşitli uygulamalar tarafından çağırılmakta.
+Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir kayıt atıp, olan biteni kayıt etmek istiyoruz.
 
 ### Gerekenler 
 
@@ -209,6 +209,7 @@ Function App ekranımız aşağıdaki gibi olacaktır.
 ![AzureSQLDB14](/assets/images/posts/2017051101/sc14.png)
 
 Status bölümü **Running** ✅
+
 Artık Azure Function yazmaya hazırız.😄
 
 -----
