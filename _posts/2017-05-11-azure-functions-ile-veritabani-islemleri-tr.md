@@ -118,10 +118,10 @@ Herşey yolunda gittiyse yukarıdaki ekran görüntüsündeki gibi **Authenticat
 Tablodaki alanlarımız.
 
 **Id** Primary Key alanımız.
-**LogMessage** Log mesajlarımızı bu alanda saklayacağız.
-**CreateDate** Log ne zaman oluşturuldu verisi burada saklayacağız.
 
-> Kopyala yapıştır kod aşağıdan alabilirsiniz.
+**LogMessage** Log mesajlarımızı bu alanda saklayacağız.
+
+**CreateDate** Log ne zaman oluşturuldu verisi burada saklayacağız.
 
 ```sql
 CREATE TABLE [dbo].[Logs](
@@ -206,7 +206,7 @@ Oluşturmuş olduğumuz Function App i açıyoruz.
 
 Function App ekranımız aşağıdaki gibi olacaktır.  
 
-![AzureSQLDB14(/assets/images/posts/2017051101/sc14.png)
+![AzureSQLDB14](/assets/images/posts/2017051101/sc14.png)
 
 Status bölümü **Running** ✅
 Artık Azure Function yazmaya hazırız.😄
