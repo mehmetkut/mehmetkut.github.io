@@ -23,4 +23,4 @@ Aslında doğrulama zorlunlu değil ancak daha hızlı onay almamızı sağlayac
 
 ### Sonuçlar
 
-Doğrulama bittikten sonra Oack kendi klasörü içerisine raporu html formatında oluşacaktır. ​Bu raporu kullanarak uygulamanızı Office Store'a yollamadan doğrulayabilirsiniz.
+Doğrulama bittikten sonra Oack kendi klasörü içerisine raporu html formatında oluşacaktır. ​Bu raporu kullanarak uygulamanızı Office Store'a yollamadan doğrulayabilirsiniz. 
