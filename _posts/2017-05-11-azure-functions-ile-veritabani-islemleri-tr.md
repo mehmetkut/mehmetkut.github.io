@@ -27,6 +27,8 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 1. Azure Portal'de Sol menüden **SQL Databases** i seçiyoruz.
 2. Açılacak olaran kısımdan **Add** butonuna tıklıyoruz.
 
+-----
+
 ![AzureSQLDB02](/assets/images/posts/2017051101/sc02.png)
 
 1. Başlangıç olarak yeni bir **Server** oluşturuyoruz. Burada daha önce bir **Server** yapılandırdıysanız hazır olanlardan seçebilirsiniz. Tabi hazır seçtiğiniz sunucuya bağlantı için kullanıcı adı ve şifreye ihtiyacınız olacak.
@@ -44,6 +46,8 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 7. **Location**, West Europe seçiyoruz.
 
 8. **Select** butonuna tıklıyoruz ve Sunucumuz hazır :)
+
+-----
 
 ![AzureSQLDB03](/assets/images/posts/2017051101/sc03.png)
 
@@ -104,9 +108,9 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 Tablodaki alanlarımız.
 
-- **Id** Primary Key alanımız.
-- **LogMessage** Log mesajlarımızı bu alanda saklayacağız.
-- **CreateDate** Log ne zaman oluşturuldu verisi burada saklayacağız.
+**Id** Primary Key alanımız.
+**LogMessage** Log mesajlarımızı bu alanda saklayacağız.
+**CreateDate** Log ne zaman oluşturuldu verisi burada saklayacağız.
 
 > Kopyala yapıştır kod aşağıdan alabilirsiniz.
 
