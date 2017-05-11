@@ -10,7 +10,7 @@ Bu yazımda basit bir senaryo üzerinden **Azure Function** ile veritabanı işl
 
 ### Senaryo 
 
-Bizim için önemli bir görevi yerine getiren, Azure Function var. Bun Azure Function çeşitli uygulamalar tarafından çağırılmakta.
+Bizim için önemli bir görevi yerine getiren bir **Azure Function** var. Bun Azure Function çeşitli uygulamalar tarafından çağırılmakta.
 Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir kayıt atıp olan biteni kayıt etmek istiyoruz.
 
 ### Gerekenler 
@@ -71,6 +71,8 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 9. **Create**, butonuna tıklayıp veritabanımızı oluşturuyoruz.
 
+-----
+
 ![AzureSQLDB04](/assets/images/posts/2017051101/sc04.png)
 
 1. Oluşturduğumuz veritabanı üzerinde çalışmak için en soldaki menüden **SQL databases** seçeneğine tıklıyoruz.
@@ -81,9 +83,13 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 4. **Tools** butonuna tıklıyoruz.
 
+-----
+
 ![AzureSQLDB05](/assets/images/posts/2017051101/sc05.png)
 
 1. Veritabanına bağlanmak için aslında bir kaç seçeneğimiz mevcut mesela Visual Studio, SQL Server Management Studio gibi. Ancak ben şu an preview aşamasında olan **Query editor** ü seçeceğim. Böylece Azure Portal ortamından çıkmadan işime devam edebiliyor olacağım. Bu kısımdan **Query editor** e tıklayıp devam edeceğiz. Ön izleme aşamasında olduğundan size kullanmak istediğinize emin misiniz diye bir soru sorabilir bu soruya olumlu cevap verip devam edebilirsiniz.
+
+-----
 
 ![AzureSQLDB06](/assets/images/posts/2017051101/sc06.png)
 
@@ -97,10 +103,13 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 5. **OK**, butonuna tıklayıp sunucuya bağlanıyoruz.
 
+-----
 
 ![AzureSQLDB07](/assets/images/posts/2017051101/sc07.png)
 
-> Herşey yolunda gittiyse yukarıdaki ekran görüntüsündeki gibi **Authenticated as sizin_kullanıcı_adınız** mesajını görmelisiniz.
+Herşey yolunda gittiyse yukarıdaki ekran görüntüsündeki gibi **Authenticated as sizin_kullanıcı_adınız** mesajını görmelisiniz.
+
+-----
 
 ![AzureSQLDB08](/assets/images/posts/2017051101/sc08.png)
 
@@ -127,6 +136,7 @@ CREATE TABLE [dbo].[Logs](
 
 3. Messages sekmesinde, **Query succeed** yazıyorsa kodumuz başarılı şekilde çalışmıştır. 
 
+-----
 
 ![AzureSQLDB09](/assets/images/posts/2017051101/sc09.png)
 
@@ -142,7 +152,7 @@ SELECT * FROM Logs
 
 4. Gördüğümüz gibi kolonlarımız geldi. Henüz log olmadığı için **No results** yazması normal.
 
-Bu adımla beraber veritabanımız hazır. 
+Bu adımla beraber veritabanımız hazır. 👍
 
 ### Azure Function App
 
