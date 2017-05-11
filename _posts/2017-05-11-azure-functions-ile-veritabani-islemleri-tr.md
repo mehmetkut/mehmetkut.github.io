@@ -45,7 +45,7 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 7. **Location**, West Europe seçiyoruz.
 
-8. **Select** butonuna tıklıyoruz ve Sunucumuz hazır :)
+8. **Select** butonuna tıklıyoruz ve sunucumuz hazır :smile:
 
 -----
 
