@@ -156,6 +156,64 @@ Bu adımla beraber veritabanımız hazır. 👍
 
 ### Azure Function App
 
+Azure Function App servisimizi Azure Portal'i kullanarak yapılandırıyoruz.
+
+![AzureSQLDB10](/assets/images/posts/2017051101/sc10.png)
+
+1. Sol menüden New seçeneğine tıklıyoruz.
+
+2. Arama kısmına Function App yazıyoruz.
+
+3. Everything bölümünde **Function App** tıklıyoruz.
+
+-----
+
+![AzureSQLDB11](/assets/images/posts/2017051101/sc11.png)
+
+1. Function App kısmından **Create** butonuna tıklayarak Function App oluşturma işlemine başlıyoruz.
+
+-----
+
+![AzureSQLDB12](/assets/images/posts/2017051101/sc12.png)
+
+1. **App name**, uygulamamızın adı 
+
+2. **Subscription**, Function App hangi Azure Subscription içerisinde oluşturulmasını istiyorsanız onu seçin.
+
+3. **Resource Group**, kullanılacak resource group seçimi yapın. Daha önce oluşturduğunuz resource grouplardan seçebilir veya **Create new** e basarak yeni bir resource group oluşturabilirsiniz. Ben yeni bir tane oluşturmayı tercih ettim.
+
+4. **Hosting Plan**, burada **Consumption Plan** olarak ilerleyebilirsiniz. Bu seçenek detayları farklı bir blog yazısı konusu.
+
+5. **Location**, Lokasyon tabiki **West Europe**
+
+6. **Storage**, Yeni bir storage oluşturabilir veya mevcut olanlarından seçebilirsiniz.
+
+7. **Application Insights**, Şimdilik **Off** konumda bırakabilirsiniz.
+
+8. **Create** butonuna tıklayıp **Function App** servisimizi oluşturmaya başlıyoruz.
+
+-----
+
+Oluşturmuş olduğumuz Function App i açıyoruz.
+
+![AzureSQLDB13](/assets/images/posts/2017051101/sc13.png)
+
+1. Sol menüden **All resources** seçeneğini tıklıyoruz.
+
+2. Gelen listeden daha önce verdiğimiz **App name** bulup Function App'i açıyoruz.
+
+> Liste çok kabarıksa üst taraftaki filtre seçenekleri kullanılabilir.
+
+Function App ekranımız aşağıdaki gibi olacaktır.  
+
+![AzureSQLDB14(/assets/images/posts/2017051101/sc14.png)
+
+Status bölümü **Running** ✅
+Artık Azure Function yazmaya hazırız.😄
+
+-----
+
 
 
 ### Sonuç
+
