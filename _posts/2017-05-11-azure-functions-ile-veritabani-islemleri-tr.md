@@ -210,7 +210,7 @@ Function App ekranımız aşağıdaki gibi olacaktır.
 
 Status bölümü **Running** ✅
 
-Artık Azure Function yazmaya hazırız.😄
+Yeni bir Azure Function oluşturmaya hazırız.😄
 
 -----
 
@@ -242,7 +242,124 @@ Artık Azure Function yazmaya hazırız.😄
 
 Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
 
-Artık kod yazmaya hazırız. 👍
+-----
+
+![AzureSQLDB18](/assets/images/posts/2017051101/sc18.png)
+
+1. **View files** paneline tıklayarak görünür hale getiriyoruz.
+
+-----
+
+![AzureSQLDB19](/assets/images/posts/2017051101/sc19.png)
+
+
+1. Gerekli paketleri kullanabilmek için **View files** kısmından **Add** butonuna tıklıyoruz.
+
+2. **project.json** adında bir dosya oluşturuyoruz. 
+
+-----
+
+![AzureSQLDB20](/assets/images/posts/2017051101/sc20.png)
+
+
+1. **project.json** dosyamızın için boş editörde boş gözükmekte.
+
+```json
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Dapper": "1.42.0",
+        "System.Data.SqlClient":"4.1.0",
+        "Microsoft.WindowsAzure.ConfigurationManager":"3.2.1"
+      }
+    }
+   }
+}
+```
+
+Kod editörümüze yukarıdaki json'u yazıyoruz.
+
+2. **Save** butonuna tıklayıp içerimizi **project.json** dosyasına kayıt ediyoruz.
+
+3. **Logs** kısmının sağındaki yukarı ok ikonuna tıklıyoruz. Böylece kodu çalıştırdığımızda olan biteni görebileceğiz.
+
+-----
+
+![AzureSQLDB21](/assets/images/posts/2017051101/sc21.png)
+
+
+1. **Save and run** butonuna tıklayıp kodumuzu çalıştırıyoruz.
+
+2. **Logs** kısmında yazmış olduğumuz paketlerin NuGet ile yüklendiğini görebilirsiniz. 
+
+![AzureSQLDB22](/assets/images/posts/2017051101/sc22.png)
+
+
+-----
+
+![AzureSQLDB23](/assets/images/posts/2017051101/sc23.png)
+
+1. **Logs** kısmında **Packages restored.** ve **Compilation succeeded** yazdığını gördüğümüzde paketler yüklenmiştir. 👍
+
+
+-----
+
+Oluşturmuş olduğumuz veritabanına bağlanmak için **Connection string** bilgisine ihtiyacımız var.
+
+![AzureSQLDB24](/assets/images/posts/2017051101/sc24.png)
+
+1. Sol menüden **SQL databases** tıklıyoruz.
+
+2. **LogDB** yi seçiyoruz.
+
+3. **Overview** tıklıyoruz.
+
+4. Açılan kısımdan **Show database connection strings** linkine tıklıyoruz.
+
+
+-----
+
+![AzureSQLDB25](/assets/images/posts/2017051101/sc25.png)
+
+1. **ADO.NET** sekmesinde olan **connection string** bilgisini hızlı erişebileceğimiz (notepad gibi) bir yere kopyalıyoruz.
+
+> Server=tcp:log-server.database.windows.net,1433;Initial Catalog=LogDB;Persist Security Info=False;User ID=logserveradmin;Password=LogServer1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+Connection string bilginiz yukardakine benzer olacaktır.
+
+{your_username} ve {your_password}** bölümlerini kendi kullanıcı adı ve şifrenizle değiştirdiğinizde **connection string** bilginiz hazır olacaktır.
+
+-----
+
+**Connection string** bilgimizi fonksiyonumuzda kullanmak için tanımlamamız gerekiyor.
+
+![AzureSQLDB26](/assets/images/posts/2017051101/sc26.png)
+
+1. Sol menüden **All Resources** tıklıyoruz.
+
+2. Üzerinde çalıştığımız Function App  bulup tıklıyoruz.
+
+3. Function App i seçiyoruz.
+
+4. Üst taraftaki sekmelerden **Platform fetures** sekmesini seçiyoruz.
+
+5. **Application settings** seçeneğine tıklıyoruz.
+
+
+-----
+
+![AzureSQLDB27](/assets/images/posts/2017051101/sc27.png)
+
+Açılacak olan **Application settings** kısmında **Connection strings** bölümü biraz aşağıda kaldığından sayfayı aşağı kaydırmanız gerekiyor. **Connection strings** kısmına veritabanı bağlantılarında kullanmak üzere yeni bir satır tanımlayacağız.
+
+1. **Name** kısmına **SqlConnection** yazın.
+
+2. **Value** olarak daha önceden hazırladığımız ve notepad e kopyaladığımız **Connection string** i yazıyoruz.
+
+3. Veritabanının tipini seçmemiz istenen açılır kutudanda **SQL Database** i seçiyoruz.
+
+4. **Save** butonuna tıklayıp ayarlarımız kayıt ediyoruz.
 
 ### Sonuç
 
