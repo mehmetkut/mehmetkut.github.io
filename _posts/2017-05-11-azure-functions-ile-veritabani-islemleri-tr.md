@@ -533,5 +533,3 @@ Eğer yazıyı adım adım takip ettiyseniz tebrikler. Artık aşağıdaki sorul
 
 
 Ayrıca önemli bir nokta olarak yazı boyunca sadece **tarayıcı**mızı kullandık. Azure Portal'in her geçen gün daha güçlü bir araç olma yolunda ilerlediğini görmüş olduk.
-
-**Mehmet Kut**
