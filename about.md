@@ -14,3 +14,5 @@ I am a technology enthusiast and love to dig in emerging technologies. Most of m
 Outside professional life, I spend most my time hanging out with my wife, reading books, keeping myself up to date with new technologies and trying to break *(into)* stuffs.☺
 
 If you want to chat, you can get in touch with me on twitter [@mehmetkut](https://twitter.com/mehmetkut).
+
+[Email me](mailto:mehmetkut@gmail.com)
