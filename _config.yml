@@ -9,7 +9,7 @@ permalink:        pretty
 title:            MK
 tagline:          'Simplicity is the ultimate sophistication.'
 description:      'A simple blog regarding Azure, Cognitive Services, Bot Framework, Cognitive Toolkit, Azure Machine Learning and other random stuffs. (English & Türkçe)'
-url:              https://mehmetkut.github.io
+url:              http://mehmetkut.com
 baseurl:          /
 
 author:
