@@ -361,5 +361,175 @@ Açılacak olan **Application settings** kısmında **Connection strings** böl�
 
 4. **Save** butonuna tıklayıp ayarlarımız kayıt ediyoruz.
 
+-----
+
+![AzureSQLDB28](/assets/images/posts/2017051101/sc28.png)
+
+Kodumuzu yazmak için editörümüzü açmamız gerekiyor.
+
+1. Sol menüden **All resources** seçeneğini tıklıyoruz.
+
+2. Gelen listeden daha önce verdiğimiz **App name** bulup Function App'i açıyoruz.
+
+3. Function App seçiyoruz.
+
+4. **Functions** bölümüne tıklıyoruz.
+
+5. **MyImportantFunction** a tıklayıp kod editörümüzü açıyoruz.
+
+![AzureSQLDB29](/assets/images/posts/2017051101/sc29.png)
+
+Sağ taraftan **View files bölümünü genişletiyoruz.
+
+1. Kodumuzu yazıyoruz.
+
+```csharp
+#r "Newtonsoft.Json"
+
+using System;
+using System.Net;
+using Newtonsoft.Json;
+using Dapper;
+using System.Data.SqlClient;
+using System.Configuration;
+
+public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
+{
+    log.Info($"Fonksiyon başlatıldı! RequestUri={req.RequestUri}");
+
+    //Çok önemli kodlar burada :)
+    //.....
+    //.....
+    
+    //Fonksiyona parametre olarak gelen userName alanını req.Content deserialize ederek alıyoruz.
+    string jsonContent = await req.Content.ReadAsStringAsync();
+    dynamic data = JsonConvert.DeserializeObject(jsonContent);
+
+    //Kullanıcı adı yoksa hata mesajı dönüyoruz.
+    if (data.userName == null) {
+        return req.CreateResponse(HttpStatusCode.BadRequest, new {
+            error = "Lütfen fonksiyonu çağıran kullanıcı adını giriniz."
+        });
+    }
+
+    //Azure SQLDB Loglama 
+    var logAdded = true;
+    try
+    {
+
+        //Tanımladığımız Function App Settings bölümündeki Connection String i alıyoruz.
+        var connectionString  = ConfigurationManager.ConnectionStrings["SqlConnection"].ConnectionString;
+        
+
+        using(var connection = new SqlConnection(connectionString))
+        {
+            //Azure SQL DB bağlantımızı açıyoruz.    
+            connection.Open();
+            
+            var logMessage = $"Fonksiyon {data.userName} tarafından {DateTime.UtcNow} tarihinde çağırılmıştır."; 
+            
+            // Log'u veritabanına yazıyoruz.
+            connection.Execute("INSERT INTO [dbo].[Logs] ([LogMessage], [CreateDate]) VALUES (@logMessage, @createDate)", new { logMessage, createDate =  DateTime.UtcNow} );
+            log.Info("Log kaydı başarılı şekilde veritabanına eklenmiştir!");
+        }
+    }
+    catch
+    {
+        logAdded = false;
+    }
+
+   // Fonksiyonumuzu bitiriyoruz. Başarı durumuna göre çağıran kullanıcıya mesaj gösterecek.
+   return !logAdded
+        ? req.CreateResponse(HttpStatusCode.BadRequest, "Hay aksi birşeyler ters gitti!")
+        : req.CreateResponse(HttpStatusCode.OK, "Azure Function başarılı şekilde çalştı!");
+}
+```
+
+2. Fonksiyonumuza parametre olarak kullanıcı adı vermemiz gerekmekte. **Test** sekmesine tıklayıp burada **Request body** kısmına json olarak yazıyoruz.
+
+```json
+{
+    "userName": "Mehmet Kut",
+}
+```
+
+3. Save butonuna tıklayıp kodumuzu kayıt ediyoruz.
+
+> Çıktıyı görmek için alt taraftaki **Logs** sekmesini görünür duruma getirmeyi unutmayın!
+
+4. Run butonuna tıklayıp kodumuzu çalıştırıyoruz.
+
+![AzureSQLDB30](/assets/images/posts/2017051101/sc30.png)
+
+Çalışma bittikten sonra bir hata yoksa **Logs** sekmesinde yukarıdakine benzer sonuçlar gözükecektir.
+
+-----
+
+Kodumuz başarılı şekilde çağırıldı peki tablomuza kayıtlar yansıdımı kontrol edelim.
+
+![AzureSQLDB31](/assets/images/posts/2017051101/sc31.png)
+
+1. Sol menüden SQL databases seçiyoruz.
+
+2. Log veritabanımızı seçiyoruz.
+
+4. **Overview** kısmına tıklıyoruz.
+
+5. **Tools** butonuna tıklıyoruz.
+
+-----
+
+![AzureSQLDB32](/assets/images/posts/2017051101/sc32.png)
+
+1. **Query editor** ü seçiyoruz.
+
+1. **Login** butonuna tıklıyoruz. Ekranda giriş işlemleri yabileceğimiz bir kısım açılacak.
+
+2. **Authorization type**, olarak **SQL server authentication** seçiyoruz.
+
+3. **Login** SQL sunucusu oluştururken tanımlamış olduğumuz kullanıcı adını giriyoruz.
+
+4. **Password**, kullanıcı için tanımladığımız şifreyi giriyoruz.
+
+5. **OK**, butonuna tıklayıp sunucuya bağlanıyoruz.
+
+![AzureSQLDB33](/assets/images/posts/2017051101/sc33.png)
+
+-----
+
+1. Log kayıtlarımızın  oluştuğunu görmek için sorgu editörüne select sorgumuzu yazıyoruz.
+
+```sql
+SELECT * FROM Logs
+```
+
+2. **Run** butonuna tıklayıp kodumuzu çalıştırıyoruz.
+
+3. **Result** sekmesine tıklıyoruz. Gördüğümüz gibi log kayıtlarımız geldi.👍 Ben iki kere test amaçlı kodumu çalıştırmıştım iki satır log kaydım var. 
+
+-----
+
 ### Sonuç
 
+Eğer yazıyı adım adım takip ettiyseniz tebrikler. Artık aşağıdaki soruların cevaplarını biliyorsunuz. 😄  
+
+- Azure Portal üzerinden SQL sunucu nasıl yapılandırılır?
+
+- Azure SQL sunucusuna veritabanı ekleme ve bu veritabanı içerisinde nasıl tablo eklenir?
+
+- Azure SQL veritabanında bir tablo nasıl sorgulanır?
+
+- Azure Function App nasıl oluşturulur?
+
+- Azure Function içerisinde NuGet paketlerini nasıl kullanılır?
+
+- Azure Function kodundan, Azure SQL DB ye bağlanmak için gerekli ayarlar nasıl yapılır?
+
+- Azure Function kodu içerisinden Azure SQL DB bağlantısı nasıl yapılır?
+
+- Azure Function üzerinden veriler, Azure SQL DB de istenilen tabloya nasıl eklenir ve görüntülenir?
+
+
+Ayrıca önemli bir nokta olarak yazı boyunca sadece **tarayıcı**mızı kullandık. Azure Portal'in her geçen gün daha güçlü bir araç olma yolunda ilerlediğini görmüş olduk.
+
+**Mehmet Kut**
