@@ -214,7 +214,35 @@ Artık Azure Function yazmaya hazırız.😄
 
 -----
 
+![AzureSQLDB15](/assets/images/posts/2017051101/sc15.png)
 
+1. Burada mylogapp'in yanındaki ok işaretini aşağı doğru genişletiyoruz.
+
+2. **Functions** seçeneğinin sağ tarafındaki **+** ikonuna tıklıyoruz.
+
+3. Sağ taraf ekranda gördüğünüz **create your own custom function.** linkine tıklıyoruz. 
+
+> Aslında burada Webhook + API, CSharp ve Create this function butonuna tıklayabilirsiniz. Ancak fonksiyonumuzun adı otomatik olarak verilecek. Henüz portal üzerinde yeniden fonksiyon adlandırma yapılamadığından ve son adımda yazdığım gibi ilerliyoruz.
+
+-----
+
+![AzureSQLDB16](/assets/images/posts/2017051101/sc16.png)
+
+1. **Language** Kullanacağımız dil olarak C# seçiyoruz.
+
+2. **Scenario** Bir güzellik Function Apps ekibi senaryo senaryo yapılabilecekleri gruplamış.
+
+3. **GenericWebHook-CSharp** şu an için bize en uygun senaryo.
+
+4. **Name your function** Burada fonksiyonumuzun adını veriyoruz. Daha öncede belirttiğim gibi fonksiyon adı daha sonradan değiştirmek zor. İyice düşünerek verin. Ben **MyImportantFunction** olarak yazdım. Yazımızın başında önemli olduğunu söylemiştim. 😄
+
+5. **Create** butonu ile fonksiyonumuzu oluşturuyoruz.
+
+![AzureSQLDB17](/assets/images/posts/2017051101/sc17.png)
+
+Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
+
+Artık kod yazmaya hazırız. 👍
 
 ### Sonuç
 
