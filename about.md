@@ -7,7 +7,7 @@ title: About Me
 <img class="Centered" src= " {{ site.url }}/assets/images/me.jpg" height="400px" />
 </div>
 
-I am a Software Engineer currently working in Ceviz Bilgi Teknolojileri of team at Azure. I started my professional career in 2007 after completing my graduation as Bachelor in IT. Since beginning of my professional career I have been working in .NET and its surrounding ecosystem. 
+My name is **Mehmet Kut**. I am a Software Engineer currently working in Ceviz Bilgi Teknolojileri of team at Azure. I started my professional career in 2007 after completing my graduation as Bachelor in IT. Since beginning of my professional career I have been working in .NET and its surrounding ecosystem. 
 
 I am a technology enthusiast and love to dig in emerging technologies. Most of my working hours are spent on creating architecture, evaluating upcoming products and developing frameworks. In career, I have designed architecture and successfully delivered products for multiple companies. Currently I am obsessed with Azure, ASP.NET Core and have been following it since it was announced. 
 

@@ -265,6 +265,7 @@ Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
 1. **project.json** dosyamızın için boş editörde boş gözükmekte.
 
 ```json
+
 {
   "frameworks": {
     "net46":{
@@ -276,6 +277,7 @@ Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
     }
    }
 }
+
 ```
 
 Kod editörümüze yukarıdaki json'u yazıyoruz.
@@ -379,7 +381,7 @@ Kodumuzu yazmak için editörümüzü açmamız gerekiyor.
 
 ![AzureSQLDB29](/assets/images/posts/2017051101/sc29.png)
 
-Sağ taraftan **View files bölümünü genişletiyoruz.
+Sağ taraftan **View files** bölümünü genişletiyoruz.
 
 1. Kodumuzu yazıyoruz.
 
@@ -449,7 +451,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
 ```json
 {
-    "userName": "Mehmet Kut",
+    "userName": "Mehmet Kut"
 }
 ```
 
