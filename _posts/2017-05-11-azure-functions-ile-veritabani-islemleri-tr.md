@@ -29,7 +29,7 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 -----
 
-![AzureSQLDB02](/assets/images/posts/2017051101/sc02.png)
+![AzureSQLDB02](/assets/images/posts/2017051101/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Başlangıç olarak yeni bir **Server** oluşturuyoruz. Burada daha önce bir **Server** yapılandırdıysanız hazır olanlardan seçebilirsiniz. Tabi hazır seçtiğiniz sunucuya bağlantı için kullanıcı adı ve şifreye ihtiyacınız olacak.
 
@@ -49,7 +49,7 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 -----
 
-![AzureSQLDB03](/assets/images/posts/2017051101/sc03.png)
+![AzureSQLDB03](/assets/images/posts/2017051101/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **Database name**, Loglarımızı tutacağımız veritabanı adı. Ben LogDB olarak girdim. Siz farklı bir isimlendirme standardınız varsa kullanabilirsiniz.
 
@@ -73,7 +73,7 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 -----
 
-![AzureSQLDB04](/assets/images/posts/2017051101/sc04.png)
+![AzureSQLDB04](/assets/images/posts/2017051101/sc04.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Oluşturduğumuz veritabanı üzerinde çalışmak için en soldaki menüden **SQL databases** seçeneğine tıklıyoruz.
 
@@ -85,13 +85,13 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 -----
 
-![AzureSQLDB05](/assets/images/posts/2017051101/sc05.png)
+![AzureSQLDB05](/assets/images/posts/2017051101/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Veritabanına bağlanmak için aslında bir kaç seçeneğimiz mevcut mesela Visual Studio, SQL Server Management Studio gibi. Ancak ben şu an preview aşamasında olan **Query editor** ü seçeceğim. Böylece Azure Portal ortamından çıkmadan işime devam edebiliyor olacağım. Bu kısımdan **Query editor** e tıklayıp devam edeceğiz. Ön izleme aşamasında olduğundan size kullanmak istediğinize emin misiniz diye bir soru sorabilir bu soruya olumlu cevap verip devam edebilirsiniz.
 
 -----
 
-![AzureSQLDB06](/assets/images/posts/2017051101/sc06.png)
+![AzureSQLDB06](/assets/images/posts/2017051101/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **Login** butonuna tıklıyoruz. Ekranda giriş işlemleri yabileceğimiz bir kısım açılacak.
 
@@ -105,13 +105,13 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 -----
 
-![AzureSQLDB07](/assets/images/posts/2017051101/sc07.png)
+![AzureSQLDB07](/assets/images/posts/2017051101/sc07.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Herşey yolunda gittiyse yukarıdaki ekran görüntüsündeki gibi **Authenticated as sizin_kullanıcı_adınız** mesajını görmelisiniz.
 
 -----
 
-![AzureSQLDB08](/assets/images/posts/2017051101/sc08.png)
+![AzureSQLDB08](/assets/images/posts/2017051101/sc08.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Log tutacak tablomuzu oluşturuyoruz. Oluşturmak için gerekli kodu bu alana yazıyoruz. 
 
@@ -138,7 +138,7 @@ CREATE TABLE [dbo].[Logs](
 
 -----
 
-![AzureSQLDB09](/assets/images/posts/2017051101/sc09.png)
+![AzureSQLDB09](/assets/images/posts/2017051101/sc09.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Tablomuzun oluştuğunu görmek için sorgu editörüne select sorgumuzu yazıyoruz.
 
@@ -158,7 +158,7 @@ Bu adımla beraber veritabanımız hazır. 👍
 
 Azure Function App servisimizi Azure Portal'i kullanarak yapılandırıyoruz.
 
-![AzureSQLDB10](/assets/images/posts/2017051101/sc10.png)
+![AzureSQLDB10](/assets/images/posts/2017051101/sc10.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Sol menüden New seçeneğine tıklıyoruz.
 
@@ -168,13 +168,13 @@ Azure Function App servisimizi Azure Portal'i kullanarak yapılandırıyoruz.
 
 -----
 
-![AzureSQLDB11](/assets/images/posts/2017051101/sc11.png)
+![AzureSQLDB11](/assets/images/posts/2017051101/sc11.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Function App kısmından **Create** butonuna tıklayarak Function App oluşturma işlemine başlıyoruz.
 
 -----
 
-![AzureSQLDB12](/assets/images/posts/2017051101/sc12.png)
+![AzureSQLDB12](/assets/images/posts/2017051101/sc12.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **App name**, uygulamamızın adı 
 
@@ -196,7 +196,7 @@ Azure Function App servisimizi Azure Portal'i kullanarak yapılandırıyoruz.
 
 Oluşturmuş olduğumuz Function App i açıyoruz.
 
-![AzureSQLDB13](/assets/images/posts/2017051101/sc13.png)
+![AzureSQLDB13](/assets/images/posts/2017051101/sc13.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Sol menüden **All resources** seçeneğini tıklıyoruz.
 
@@ -206,7 +206,7 @@ Oluşturmuş olduğumuz Function App i açıyoruz.
 
 Function App ekranımız aşağıdaki gibi olacaktır.  
 
-![AzureSQLDB14](/assets/images/posts/2017051101/sc14.png)
+![AzureSQLDB14](/assets/images/posts/2017051101/sc14.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Status bölümü **Running** ✅
 
@@ -214,7 +214,7 @@ Yeni bir Azure Function oluşturmaya hazırız.😄
 
 -----
 
-![AzureSQLDB15](/assets/images/posts/2017051101/sc15.png)
+![AzureSQLDB15](/assets/images/posts/2017051101/sc15.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Burada mylogapp'in yanındaki ok işaretini aşağı doğru genişletiyoruz.
 
@@ -226,7 +226,7 @@ Yeni bir Azure Function oluşturmaya hazırız.😄
 
 -----
 
-![AzureSQLDB16](/assets/images/posts/2017051101/sc16.png)
+![AzureSQLDB16](/assets/images/posts/2017051101/sc16.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **Language** Kullanacağımız dil olarak C# seçiyoruz.
 
@@ -238,19 +238,19 @@ Yeni bir Azure Function oluşturmaya hazırız.😄
 
 5. **Create** butonu ile fonksiyonumuzu oluşturuyoruz.
 
-![AzureSQLDB17](/assets/images/posts/2017051101/sc17.png)
+![AzureSQLDB17](/assets/images/posts/2017051101/sc17.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
 
 -----
 
-![AzureSQLDB18](/assets/images/posts/2017051101/sc18.png)
+![AzureSQLDB18](/assets/images/posts/2017051101/sc18.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **View files** paneline tıklayarak görünür hale getiriyoruz.
 
 -----
 
-![AzureSQLDB19](/assets/images/posts/2017051101/sc19.png)
+![AzureSQLDB19](/assets/images/posts/2017051101/sc19.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 
 1. Gerekli paketleri kullanabilmek için **View files** kısmından **Add** butonuna tıklıyoruz.
@@ -259,7 +259,7 @@ Fonksiyonumuz oluştuktan sonra kod editörü yukarıdaki gibi görünecektir.
 
 -----
 
-![AzureSQLDB20](/assets/images/posts/2017051101/sc20.png)
+![AzureSQLDB20](/assets/images/posts/2017051101/sc20.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 
 1. **project.json** dosyamızın için boş editörde boş gözükmekte.
@@ -288,19 +288,19 @@ Kod editörümüze yukarıdaki json'u yazıyoruz.
 
 -----
 
-![AzureSQLDB21](/assets/images/posts/2017051101/sc21.png)
+![AzureSQLDB21](/assets/images/posts/2017051101/sc21.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 
 1. **Save and run** butonuna tıklayıp kodumuzu çalıştırıyoruz.
 
 2. **Logs** kısmında yazmış olduğumuz paketlerin NuGet ile yüklendiğini görebilirsiniz. 
 
-![AzureSQLDB22](/assets/images/posts/2017051101/sc22.png)
+![AzureSQLDB22](/assets/images/posts/2017051101/sc22.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 
 -----
 
-![AzureSQLDB23](/assets/images/posts/2017051101/sc23.png)
+![AzureSQLDB23](/assets/images/posts/2017051101/sc23.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **Logs** kısmında **Packages restored.** ve **Compilation succeeded** yazdığını gördüğümüzde paketler yüklenmiştir. 👍
 
@@ -309,7 +309,7 @@ Kod editörümüze yukarıdaki json'u yazıyoruz.
 
 Oluşturmuş olduğumuz veritabanına bağlanmak için **Connection string** bilgisine ihtiyacımız var.
 
-![AzureSQLDB24](/assets/images/posts/2017051101/sc24.png)
+![AzureSQLDB24](/assets/images/posts/2017051101/sc24.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Sol menüden **SQL databases** tıklıyoruz.
 
@@ -322,7 +322,7 @@ Oluşturmuş olduğumuz veritabanına bağlanmak için **Connection string** bil
 
 -----
 
-![AzureSQLDB25](/assets/images/posts/2017051101/sc25.png)
+![AzureSQLDB25](/assets/images/posts/2017051101/sc25.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **ADO.NET** sekmesinde olan **connection string** bilgisini hızlı erişebileceğimiz (notepad gibi) bir yere kopyalıyoruz.
 
@@ -336,7 +336,7 @@ Connection string bilginiz yukardakine benzer olacaktır.
 
 **Connection string** bilgimizi fonksiyonumuzda kullanmak için tanımlamamız gerekiyor.
 
-![AzureSQLDB26](/assets/images/posts/2017051101/sc26.png)
+![AzureSQLDB26](/assets/images/posts/2017051101/sc26.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Sol menüden **All Resources** tıklıyoruz.
 
@@ -351,7 +351,7 @@ Connection string bilginiz yukardakine benzer olacaktır.
 
 -----
 
-![AzureSQLDB27](/assets/images/posts/2017051101/sc27.png)
+![AzureSQLDB27](/assets/images/posts/2017051101/sc27.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Açılacak olan **Application settings** kısmında **Connection strings** bölümü biraz aşağıda kaldığından sayfayı aşağı kaydırmanız gerekiyor. **Connection strings** kısmına veritabanı bağlantılarında kullanmak üzere yeni bir satır tanımlayacağız.
 
@@ -365,7 +365,7 @@ Açılacak olan **Application settings** kısmında **Connection strings** böl�
 
 -----
 
-![AzureSQLDB28](/assets/images/posts/2017051101/sc28.png)
+![AzureSQLDB28](/assets/images/posts/2017051101/sc28.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Kodumuzu yazmak için editörümüzü açmamız gerekiyor.
 
@@ -379,7 +379,7 @@ Kodumuzu yazmak için editörümüzü açmamız gerekiyor.
 
 5. **MyImportantFunction** a tıklayıp kod editörümüzü açıyoruz.
 
-![AzureSQLDB29](/assets/images/posts/2017051101/sc29.png)
+![AzureSQLDB29](/assets/images/posts/2017051101/sc29.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Sağ taraftan **View files** bölümünü genişletiyoruz.
 
@@ -461,7 +461,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
 4. Run butonuna tıklayıp kodumuzu çalıştırıyoruz.
 
-![AzureSQLDB30](/assets/images/posts/2017051101/sc30.png)
+![AzureSQLDB30](/assets/images/posts/2017051101/sc30.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Çalışma bittikten sonra bir hata yoksa **Logs** sekmesinde yukarıdakine benzer sonuçlar gözükecektir.
 
@@ -469,7 +469,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
 Kodumuz başarılı şekilde çağırıldı peki tablomuza kayıtlar yansıdımı kontrol edelim.
 
-![AzureSQLDB31](/assets/images/posts/2017051101/sc31.png)
+![AzureSQLDB31](/assets/images/posts/2017051101/sc31.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Sol menüden SQL databases seçiyoruz.
 
@@ -481,7 +481,7 @@ Kodumuz başarılı şekilde çağırıldı peki tablomuza kayıtlar yansıdım�
 
 -----
 
-![AzureSQLDB32](/assets/images/posts/2017051101/sc32.png)
+![AzureSQLDB32](/assets/images/posts/2017051101/sc32.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. **Query editor** ü seçiyoruz.
 
@@ -495,7 +495,7 @@ Kodumuz başarılı şekilde çağırıldı peki tablomuza kayıtlar yansıdım�
 
 5. **OK**, butonuna tıklayıp sunucuya bağlanıyoruz.
 
-![AzureSQLDB33](/assets/images/posts/2017051101/sc33.png)
+![AzureSQLDB33](/assets/images/posts/2017051101/sc33.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 -----
 
@@ -525,11 +525,11 @@ Eğer yazıyı adım adım takip ettiyseniz tebrikler. Artık aşağıdaki sorul
 
 - Azure Function içerisinde NuGet paketlerini nasıl kullanılır?
 
-- Azure Function kodundan, Azure SQL DB ye bağlanmak için gerekli ayarlar nasıl yapılır?
+- Azure Function kodundan içerisinden Azure SQL DB bağlantısı nasıl yapılır?
 
-- Azure Function kodu içerisinden Azure SQL DB bağlantısı nasıl yapılır?
-
-- Azure Function üzerinden veriler, Azure SQL DB de istenilen tabloya nasıl eklenir ve görüntülenir?
+- Azure Function kodundan, veriler Azure SQL DB de istenilen tabloya nasıl eklenir ve görüntülenir?
 
 
-Ayrıca önemli bir nokta olarak yazı boyunca sadece **tarayıcı**mızı kullandık. Azure Portal'in her geçen gün daha güçlü bir araç olma yolunda ilerlediğini görmüş olduk.
+Ayrıca önemli bir nokta olarak yazı boyunca sadece **tarayıcı**mızı kullandık. 
+
+**Azure Portal** her geçen gün daha güçlü bir araç olma yolunda ilerliyor.👍
