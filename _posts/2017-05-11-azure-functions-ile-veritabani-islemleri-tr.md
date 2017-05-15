@@ -22,7 +22,7 @@ Bizde Azure Function her çağrıldığında Azure SQLDB de log tablomuza bir ka
 
 Öncelikle Azure Function ile veri yazacağımız veritabanını yapılandırmamız gerekiyor. 
 
-![AzureSQLDB01](/assets/images/posts/2017051101/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-init"  data-jslghtbx="" }
+![AzureSQLDB01](/assets/images/posts/2017051101/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 1. Azure Portal'de Sol menüden **SQL Databases** i seçiyoruz.
 2. Açılacak olaran kısımdan **Add** butonuna tıklıyoruz.
