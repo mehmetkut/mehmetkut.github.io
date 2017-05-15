@@ -61,16 +61,16 @@ Mecvut durumda sunucuları barındırmak için gerekenlerden bazıları,
 - Temizlikçi abla bodrumun tozunu alırken, yanlışlıkla sunucuyu kapatmasın diye bir kağıdın üzerine **dokunmayın** yazılmalı.😄
 
 
-Maddeler çoğaltılabilir. Burada anlatmak istediğim bu şirket **finans dergisi** hazırlayıp, yayımlayan bir şirket uzmanlık alanı **bilgi teknolojileri** olmamasına rağmen bu işlerle vakit ve para kaybetmek zorunda.
+Maddeler çoğaltılabilir. Burada anlatmak istediğim bu şirket **finans dergisi** hazırlayıp, yayımlayan bir şirket uzmanlık alanı **bilgi teknolojileri** olmamasına rağmen bu işlerle vakit kaybediyor. Uzmanlık alanı olmayan konularda efor harcamak durumunda kalıyor.
 
 -----
 
 ### Mevcut Durum İyileştirmesi (IAAS)
 
 Sıraladığım maddeleri yapmanın daha kolay bir yolu olmalı diye düşünürken, sadece bu alanlarda uzmanlaşmış bir **teknoloji** şirketi çıka gelir ve teklifte bulunur. 
-Sunucularını al benim **veri merkezime** koy sen uzaktan erişim ile sunucularına bağlan. Soğutma, elektrik, yer sorunlarını çözeyim, ücrette kullandığın kadar öde olsun der.
+Sunucularını al benim **veri merkezime** koy. Uzaktan erişim ile sunucularına bağlan. Soğutma, elektrik, yer sorunlarını çözeyim, ücrette kullandığın kadar öde olsun der.
 
-Böylece bodrum katından, **veri merkezi** dönüşümü başlar. Kazanım olarak artık sunucularımızın enerji tüketimi, donanım maliyeti, soğutulması ve kapladığı alan ilgili sorunlarımız uçup gitmiş olur. Bu işlerle ilgilenen uzman personele devretmiş olduk.
+Böylece şirketin bodrum katından, **veri merkezi** dijital dönüşümü başlar. Yani **buluta çıkmış** olur. Şirket kazanım olarak enerji giderleri, donanım maliyeti, soğutma ve kapladığı alan ilgili sorunları çözmüş olur. En güzel tarafı bu işleri uzmanına devretmiş olur.
 
 -----
 
