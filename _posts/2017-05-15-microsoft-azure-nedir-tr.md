@@ -13,7 +13,7 @@ Kısa olan açıklaması: "**Microsoft Azure**, **Microsoft**'un bulut platformu
 
 -----
 
-Bir adım daha sadeleştirelim, **Microsoft Azure** aslında **Azure** olarakta sıkça telaffuz edilir.
+Bir adım daha sadeleştirelim, **Microsoft Azure** -> **Azure** olarakta sıkça telaffuz edilir.
 Gelin sadece **5** harflik bir ad altına Microsoft'un neleri sığdırığına gözatalım. 😄
 
 -----
