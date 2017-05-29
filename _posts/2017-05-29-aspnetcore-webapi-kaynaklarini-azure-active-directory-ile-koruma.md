@@ -129,5 +129,49 @@ Local ortamda bulunan projemizi, Azure üzerinde çalıştırmak için gerekli a
 
 3. Tarayıcımız **corpapi.PublishSettings** adında bir dosya indirdi. Bu dosyayı localdeki uygulamamızı **Azure** ortamına göndermek için kullanıyor olacağız.
 
+-----
+
+![ASPNETCOREAADJWT08](/assets/images/posts/2017052901/sc08.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **CoreAPI** projemize sağ tıklıyoruz.
+
+2. Açılan menüden **Publish...** seçeneğine tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT09](/assets/images/posts/2017052901/sc09.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Ekrandan **Import profile** seçeneğini işaretliyoruz.
+
+2. **Publish** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT10](/assets/images/posts/2017052901/sc10.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Import Publish Settings File** penceresinden daha önceden **Azure Portal** üzerinden indirdiğimiz dosyayı seçiyoruz. Bendeki dosya adı **corpapi.PublishSettings**  sizde  farklı olabilir.
+
+2. **Open** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT11](/assets/images/posts/2017052901/sc11.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Projemiz **Azure** ortamına gönderilirken. **Output** kısmında benzer bilgilendirmeler görebilirsiniz.
+
+2. Gönderme işlemi bitince **Output** kısmında **Publish: 1  succeeded...** yazısı görmeniz gerekiyor. 
+
+-----
+
+![ASPNETCOREAADJWT12](/assets/images/posts/2017052901/sc12.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+Tarayıcımızı açıyoruz.
+
+1. Adres satırına http://corpapi.azurewebsites.net/api/values yazıp enter a basıp sayfayı açıyoruz. Bu adres sizin app service adınıza göre değişecektir.
+
+2. API çalışıyorsa ekrandaki gibi bir JSON çıktısı olacak.
+
+Şu an için API hazır. Ancak senaryomuzda belirttiğimiz gibi kaynaklar herkese açık bir ortamda duruyor. 
+
 
 *makale henüz bitmedi*
