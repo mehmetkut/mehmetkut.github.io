@@ -33,7 +33,7 @@ Daha önce belirttiğim gibi **AAD** servisiniz varsa bu servisi kullanarak **JS
 
 -----
 
-### ASP.NET Core Web API ###
+### ASP.NET Core Web API
 
 Bu aşamada ASP.NET Core Web API ile örnek bir REST API oluşturup, **Azure** ortamında **App Service** olarak yayınlayacağız. 
 Projeyi Visual Studio 2017 ile oluştaracağım. 
