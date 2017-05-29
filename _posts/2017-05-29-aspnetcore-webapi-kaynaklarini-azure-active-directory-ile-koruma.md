@@ -173,5 +173,106 @@ Tarayıcımızı açıyoruz.
 
 Şu an için API hazır. Ancak senaryomuzda belirttiğimiz gibi kaynaklar herkese açık bir ortamda duruyor. 
 
+### Azure Active Directory
+
+Bu aşamadan sonra **AAD** üzerinde **AAD** uygulamaları oluşturup bunları güvenlik için kullanıyor olacağız.
+
+-----
+
+![ASPNETCOREAADJWT13](/assets/images/posts/2017052901/sc13.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Sol menüden **Azure Active Directory** seçeneğini seçiyoruz. Bu seçeneği bulamazsan sol menünün altında bulunan **More services** kısmından bulabilirsiniz.
+
+2. Açılan kısımdan **App registrations** seçeneğine tıklıyoruz.
+
+3. Yeni **AAD Uygulaması** kayıt etmek için, **New application registration** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT14](/assets/images/posts/2017052901/sc14.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. AAD uygulamasının adını **Name** alanına yazıyoruz. Ben **CorpAPI** olarak adlandırdım.
+
+2. **Application type** seçimini **Web app / API** olarak bırakıyoruz. Bu uygulama tipi Web app veya API uygulaması olacağını belirtiyoruz.
+
+3. **Sign-on URL** kısmına şimdilik API adresimizi yazıyoruz.
+
+4. **Create** butonuna tıklayarak uygulamamızı oluşturuyoruz.
+
+-----
+
+![ASPNETCOREAADJWT15](/assets/images/posts/2017052901/sc15.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1.  AAD kısmında **App registrations** kısmına tıklıyoruz.
+
+2. Açılacak kısımda **CorpAPI olarak uygulamamızı arıyoruz.
+
+3. Uygulamamıza tıklayarak açıyoruz.
+
+-----
+
+Uygulamamız açılınca aşağıdakine benzer bir ekran göreceksiniz.
+
+![ASPNETCOREAADJWT16](/assets/images/posts/2017052901/sc16.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Bu ekranda önemli nokta **Application ID** bu GUID bizim uygulama tanıtıcımız. Bir köşeye kopyalasak iyi olur. 😄
+
+-----
+
+Sıra geldi gerekli izinleri ayarlamaya.
+
+![ASPNETCOREAADJWT17](/assets/images/posts/2017052901/sc17.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Açık olan settings kısmından **Required Permissions** seçeneğini seçiyoruz.
+
+2. Gelen **Required permissions** kısmında **Add** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT18](/assets/images/posts/2017052901/sc18.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Select an API** seçeneğini seçiyoruz. 
+
+2. Açılan **Select an API** kısmından **Microsoft Graph** seçeneğini işaretliyoruz.
+
+3. **Select** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT19](/assets/images/posts/2017052901/sc19.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Select permissions** seçeneğini seçiyoruz.
+
+2. Bu aşamada **Application Permissions** ve **Delegated Permissions** kısımlarında bulunan **Read and write directory data** iznini seçiyoruz. Daha açıklayıcı olmak gerekirse **Application Permissions** altında bulunan **Read and write directory data** ve **Delegated Permissions**  altında bulunan **Read and write directory data** izinlerini seçiyoruz. Bu izinler dışında seçili varsa seçilileri kaldırıyoruz.
+
+3. **Select** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT20](/assets/images/posts/2017052901/sc20.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. API ve izinlerimizi seçtik **Done** butonuna tıklayıp işlemimizi tamamlıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT21](/assets/images/posts/2017052901/sc21.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Required permission** ekrnaında gördüğünüz gibi **Microsoft Graph** eklendi. Bir **Application Permission** bir de **Delegated Permission** izni var.
+
+2. Varsayılan olarak ekli olan **Windows Azure Active Directory** seçeneğine tıklıyoruz.
+
+3. Daha önce yaptığımız gibi, **Application Permissions** altında bulunan **Read and write directory data** iznini seçiyoruz
+
+4. **Delegated Permissions**  altında bulunan **Read and write directory data** izinlerini seçiyoruz. 
+
+
+5. Bu izinler dışında seçili varsa seçilileri kaldırıyoruz. **Save** butonuna tıklıyoruz.
+
+-----
+
+İzinleri verdikten sonra **Required permissions** kısmı aşağıdaki gibi gözükecektir.
+
+![ASPNETCOREAADJWT22](/assets/images/posts/2017052901/sc22.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
 
 *makale henüz bitmedi*
