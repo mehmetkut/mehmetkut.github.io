@@ -82,4 +82,10 @@ Donanım ve ağ ile sorunlarımız gitmiş olsada, yazılımları hala biz kurup
 
 Buradaki şirket kazanımı, işletim sistemi, antivirüs, veritabanı ve diğer yazılımların kurulum, bakım, lisans gibi uzmanlık alanı dışındaki işleri uzmanların yönetimine devretti. **Teknoloji** şirketinin sunduğu hizmetlerle hız kazandı maliyetleri düşürüp, risklerini azalttı.
 
+-----
+
+### Veri Merkezi
+
+Bulut bilişimin kalbi veri merkezleridir. 
+
 *makale henüz bitmedi*
