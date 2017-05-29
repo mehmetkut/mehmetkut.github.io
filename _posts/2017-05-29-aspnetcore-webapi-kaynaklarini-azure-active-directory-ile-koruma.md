@@ -12,7 +12,7 @@ Bu yazımda gerçek bir senaryo üzerinden **ASP.NET Core Web API** kaynaklarım
 
 ### Senaryo
 
-Kurumumuzda hali hazırda **ASP.NET Core Web API** ile yazılmış REST API kaynakları var. Bu kaynaklar **Azure** üzerinde barındırılmakta ve IOS, Android ve çeşitli Backend istemciler tarafından kullanılmakta. Aynı zamanda Azure üzerinde **Azure Active Directory(AAD)** serviside yapılandırılmış durumda.  Ne yazıkki kaynaklarda şu an bir güvenlik sistemi yok. İsteyen herkes **POST** veya **GET** requestleri ile bu kaynaklara erişebilmekte. Kaynakları olabilecek en güvenli ve kısa yoldan koruma altına almak istiyorsunuz.
+Kurumumuzda hali hazırda **ASP.NET Core Web API** ile yazılmış REST API kaynakları var. Bu kaynaklar **Azure** üzerinde barındırılmakta ve IOS, Android ve çeşitli Backend istemciler tarafından kullanılmakta. Aynı zamanda Azure üzerinde **Azure Active Directory(AAD)** serviside yapılandırılmış durumda.  Ne yazık ki kaynaklarda şu an bir güvenlik sistemi yok. İsteyen herkes **POST** veya **GET** requestleri ile bu kaynaklara erişebilmekte. Kaynakları olabilecek en güvenli ve kısa yoldan koruma altına almak istiyorsunuz.
 
 -----
 
@@ -60,7 +60,7 @@ Visual Studio 2017 yi çalıştırıyoruz.
 
 3. Projemizin adını yazıyoruz. Ben **CorpAPI** olarak adlandırdım.
 
-4. **OK** butonuna basıp devam ediyoruz.
+4.  **OK** butonuna basıp devam ediyoruz.
 
 -----
 
@@ -82,3 +82,52 @@ Projemiz oluştuktan sonra aşağıdakine benzer bir ekran görüntüsü karşı
 
 
 -----
+
+**Azure Portal** üzerinden uygulamamızın çalışacağı **Azure App Service**'i yapılandırıyoruz.
+
+![ASPNETCOREAADJWT05](/assets/images/posts/2017052901/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Sol menüden **New** seçeneğini seçiyoruz.
+
+2. Açılacak kısımdan **Web + Mobile** seçeneğini seçiyoruz.
+
+3. **Web App** seçeneğini işaretliyoruz.
+
+4. **App Name** kısmına **corpapi** olarak uygulamamızı adlandırıyoruz. Azure yazdığınız adı kabul etmezse bir ad yazabilirsiniz.
+
+5. **Subscription** seçeneğinden uygun Azure aboneliği seçiyoruz.
+
+6. **Resource Group** olarak yeni bir Resource Group oluşturmak istedik. **Create new** seçeneğini seçip Resource Group adımı **RG-CorpApi** olarak yazıyoruz.
+
+7. **App Service Plan** olarak bu demo senaryosu olduğu için free app service plan seçtik. Senaryoya göre bu değişecektir.
+
+8. **Create** butonuna tıklayarak **App Service**'i oluşturuyoruz.
+
+-----
+
+![ASPNETCOREAADJWT06](/assets/images/posts/2017052901/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+Oluşturduğumuz **App Service** i açıyoruz.
+
+1.  Sol menüden **Resource groups** seçeneğini seçiyoruz.
+
+2. Oluşturduğumuz **Resource group** adına yani **RG-CorpApi** ye tıklıyoruz.
+
+3. Açılan kısımdan **Overview** seçeneğine tıklıyoruz.
+
+4. **AppService** adını açılan kısımda görmemiz gerek. Adını **corpapi** olarak belirlemiştik. **corpapi** ye tıklayarak servisimizi açıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT07](/assets/images/posts/2017052901/sc07.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+Local ortamda bulunan projemizi, Azure üzerinde çalıştırmak için gerekli ayarların bulunduğu dosyayı ediniyoruz.
+
+1. **Overview** seçeneğini seçiyoruz.
+
+2. **Get publish profile** butonuna tıklıyoruz.
+
+3. Tarayıcımız **corpapi.PublishSettings** adında bir dosya indirdi. Bu dosyayı localdeki uygulamamızı **Azure** ortamına göndermek için kullanıyor olacağız.
+
+
+*makale henüz bitmedi*
