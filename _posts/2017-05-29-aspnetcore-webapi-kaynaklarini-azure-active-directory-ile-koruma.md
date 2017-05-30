@@ -360,13 +360,15 @@ Herşey yolunda gittiyse aşağıdakine benzer bir **Required permissions** ekra
 Şimdiye kadar AAD üzerinde yaptıklarımızı gözden geçirelim:
 
 - AAD'de sözde bir **Web Application/Web API** oluşturduk ve gerekli izinleri ekledik.
-- AAD'de yine sözde bir **Native**  uygulama oluşturduk  ve gerekli izinleri ekledik.
+- AAD'de yine sözde bir **Native** uygulama oluşturduk ve gerekli izinleri ekledik.
 
 Burada AAD'de oluşturduğumuz her uygulama için benzersiz bir **Uygulama Kimliği** *(Application ID)* oluşturuldu. Bu benzersiz uygulama kimliklerinin oluşturulmasından AAD sorumlu. **Kaynak Sağlayıcısı** yani **Web Application/Web API** tipindeki uygulama ve **İstemci Uygulaması** yani **Native Application** tipindeki uygulamanın AAD ile "konuşması" gerektiğinde, bu Application ID leri bir şekilde gönderirler. Böylece AAD bunu kimin gönderdiğini belirler.
 
 Sanırım Azure AD konfigürasyonu olan "en az sevdiğim" 😄 kısmını tamamladık. 
 
 -----
+
+**Postman** uygulamasını kullanarak şimdi API 
 
 
 *makale henüz bitmedi*
