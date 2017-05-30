@@ -203,9 +203,9 @@ Bu aşamadan sonra **AAD** üzerinde **AAD** uygulamaları oluşturup bunları g
 
 ![ASPNETCOREAADJWT15](/assets/images/posts/2017052901/sc15.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-1.  AAD kısmında **App registrations** kısmına tıklıyoruz.
+1. AAD kısmında **App registrations** kısmına tıklıyoruz.
 
-2. Açılacak kısımda **CorpAPI olarak uygulamamızı arıyoruz.
+2. Açılacak kısımda **CorpAPI** olarak uygulamamızı arıyoruz.
 
 3. Uygulamamıza tıklayarak açıyoruz.
 
@@ -273,6 +273,100 @@ Sıra geldi gerekli izinleri ayarlamaya.
 İzinleri verdikten sonra **Required permissions** kısmı aşağıdaki gibi gözükecektir.
 
 ![ASPNETCOREAADJWT22](/assets/images/posts/2017052901/sc22.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+-----
+
+Benzer şekilde bir native AAD uygulaması daha ekliyeceğiz. Bu sefer uygulamamızın tipi **Native Application** olacak.
+
+![ASPNETCOREAADJWT23](/assets/images/posts/2017052901/sc23.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+
+1. Sol menüden **Azure Active Directory** seçeneğini seçiyoruz. Bu seçeneği bulamazsan sol menünün altında bulunan **More services** kısmından bulabilirsiniz.
+
+2. Açılan kısımdan **App registrations** seçeneğine tıklıyoruz.
+
+3. Yeni **AAD Uygulaması** kayıt etmek için, **New application registration** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT24](/assets/images/posts/2017052901/sc24.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. AAD uygulamasının adını **Name** alanına yazıyoruz. Ben **CorpNativeAPI** olarak adlandırdım.
+
+2. **Application type** seçimini **Native** seçiyoruz. 
+
+3. **Sign-on URL** kısmına http://corpnativeapi.azure-mobile.net yazıyoruz.
+
+4. **Create** butonuna tıklayarak uygulamamızı oluşturuyoruz.
+
+-----
+
+![ASPNETCOREAADJWT25](/assets/images/posts/2017052901/sc25.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Uygulamaların listelendiği kısımda **CorpNativeAPI** olarak uygulamamızı arıyoruz.
+
+2. Uygulamamıza tıklayarak açıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT26](/assets/images/posts/2017052901/sc26.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Bu ekranda önemli nokta **Application ID** bu GUID bizim uygulama tanıtıcımız. Bir köşeye kopyalasak iyi olur. 😄
+
+-----
+
+![ASPNETCOREAADJWT27](/assets/images/posts/2017052901/sc27.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Açık olan settings kısmından **Required Permissions** seçeneğini seçiyoruz.
+
+2. Gelen **Required permissions** kısmında **Add** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT28](/assets/images/posts/2017052901/sc28.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Select an API** seçeneğini seçiyoruz. 
+
+2. Açılan **Select an API** kısmından **CorpAPI** olarak WebAPI uygulamamızı arıyoruz.
+
+3. WebAPI uygulamamızı seçiyoruz.
+
+4. **Select** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT29](/assets/images/posts/2017052901/sc29.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Select permissions** seçeneğini seçiyoruz.
+
+2. **Access CorpAPI** iznini seçiyoruz.
+
+3. **Select** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT30](/assets/images/posts/2017052901/sc30.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Done** butonuna tıklıyoruz.
+
+-----
+
+Herşey yolunda gittiyse aşağıdakine benzer bir **Required permissions** ekranı görmeniz gerekiyor.
+
+![ASPNETCOREAADJWT31](/assets/images/posts/2017052901/sc31.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+-----
+
+Şimdiye kadar AAD üzerinde yaptıklarımızı gözden geçirelim:
+
+- AAD'de sözde bir **Web Application/Web API** oluşturduk ve gerekli izinleri ekledik.
+- AAD'de yine sözde bir **Native**  uygulama oluşturduk  ve gerekli izinleri ekledik.
+
+Burada AAD'de oluşturduğumuz her uygulama için benzersiz bir **Uygulama Kimliği** *(Application ID)* oluşturuldu. Bu benzersiz uygulama kimliklerinin oluşturulmasından AAD sorumlu. **Kaynak Sağlayıcısı** yani **Web Application/Web API** tipindeki uygulama ve **İstemci Uygulaması** yani **Native Application** tipindeki uygulamanın AAD ile "konuşması" gerektiğinde, bu Application ID leri bir şekilde gönderirler. Böylece AAD bunu kimin gönderdiğini belirler.
+
+Sanırım Azure AD konfigürasyonu olan "en az sevdiğim" 😄 kısmını tamamladık. 
+
+-----
 
 
 *makale henüz bitmedi*
