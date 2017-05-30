@@ -551,6 +551,7 @@ using Microsoft.AspNetCore.Authorization;
 ```  
 
 3. Güvenlik için class ımızın başına aşağıdaki özelliği ekliyoruz.
+
 ```csharp
 [Authorize]
 ```  
@@ -567,5 +568,50 @@ Bu aşamada uygulamayı Azure ortamına  **Publish** ediyoruz. Yani göneriyoruz
 
 3. Açılacak olan ekrandan **Publish** butonuna tıklayarak uygulamamızı gönderiyoruz.
 
+-----
 
-*makale henüz bitmedi*
+Evet koruma aldığımız API ne alemde Postman kullanarak bakalım.
+
+![ASPNETCOREAADJWT46](/assets/images/posts/2017052901/sc46.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. İstek tipimizi **GET** olarak seçiyoruz.
+
+2. İstek yapacağımız API adresimizi yazıyoruz.
+
+3. **Send** butonuna tıklayarak isteğimizi gönderiyoruz.
+
+4. Görmüş olduğunuz gibi artık API koruma altında. Erişim için gerekli güvenlik bilgilerini sağlamadığımız için **401 Unauthorized** hatası aldık. 😄
+
+
+-----
+
+Şimdi elimizde daha önce aldığımız **access token** ile nasıl API a erişiz görelim.
+
+![ASPNETCOREAADJWT47](/assets/images/posts/2017052901/sc47.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. İstek tipimizi **GET** olarak seçiyoruz.
+
+2. İstek yapacağımız API adresimizi yazıyoruz.
+
+3. **Authorization** ekliyoruz değeride, **bearer** <access token> . Burada önemli nokta access token ın bir ömrü olduğu ömrü dolduğunda ya refresh token ya da kullanıcı adı ve şifre ile tekrar accec token üretmemiz gerektiği.
+
+5. **Send** butonuna tıklayarak isteğimizi gönderiyoruz.
+
+6. Token'ımız doğrulandı ve kaynağımıza güvenli biçimde erişebildik.👍
+
+-----
+
+Hedefimize ulaştık. 😄 
+
+Şu ana kadar gösterdiklerim:
+
+- ASP.NET Core Web API da nasıl proje oluşturacağımızı gördük.
+- Hazırlamış olduğumuz WEB API'yı Azure App Service olarak yayınladık.
+- AAD'de bir Web Uygulaması / Web API'sı yapılandırdık.
+- AAD'de bir Native Uygulama yapılandırdık.
+- Hazırlamış olduğumuz WEB API'yı JWT paketi ile korumaya aldık.
+- Korumaya altığımız WEB API'ya almış oldğumuz access token ile erişebildik.
+
+Aslında aralarda anlattığım bir kaç nokta daha olmuştur. Bu konu kolay ama bir kaç adım atlanır veya eksik yapılırsa ne yazıkki olmuyor. Takıldığınız noktalar olursa bana eposta göndermekten çekinmeyin.
+
+Ayrıca bir aydınlanma noktası olarak **AAD** ile sadece ASP.NET Core Web API değil NodeJS, PHP gibi farklı teknolojilerle yazılmış API lara aynı yöntemi kullanarak koruma sağlayabilirsiniz.
