@@ -355,6 +355,8 @@ Herşey yolunda gittiyse aşağıdakine benzer bir **Required permissions** ekra
 
 ![ASPNETCOREAADJWT31](/assets/images/posts/2017052901/sc31.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
+1. Son olarak yapmamız gereken **Grant Permissions** butonuna tıklayıp gelen soruya **Yes** cevabını veriyoruz. Böylece hesabımıza gerekli yetkileri vermiş olduk. 
+
 -----
 
 Şimdiye kadar AAD üzerinde yaptıklarımızı gözden geçirelim:
@@ -364,11 +366,110 @@ Herşey yolunda gittiyse aşağıdakine benzer bir **Required permissions** ekra
 
 Burada AAD'de oluşturduğumuz her uygulama için benzersiz bir **Uygulama Kimliği** *(Application ID)* oluşturuldu. Bu benzersiz uygulama kimliklerinin oluşturulmasından AAD sorumlu. **Kaynak Sağlayıcısı** yani **Web Application/Web API** tipindeki uygulama ve **İstemci Uygulaması** yani **Native Application** tipindeki uygulamanın AAD ile "konuşması" gerektiğinde, bu Application ID leri bir şekilde gönderirler. Böylece AAD bunu kimin gönderdiğini belirler.
 
-Sanırım Azure AD konfigürasyonu olan "en az sevdiğim" 😄 kısmını tamamladık. 
+Azure AD konfigürasyonu olan "en az sevdiğim" bölümü tamamladık. 😄
 
 -----
 
-**Postman** uygulamasını kullanarak şimdi API 
+Şimdi **Postman** uygulamasını kullanarak API bağlantısı sağlaman için **JSON Web Token** üreteceğiz.
+
+-----
+
+Öncelikle token üretmek için **End Point** adresimizi bulmamız gerekiyor.
+
+![ASPNETCOREAADJWT32](/assets/images/posts/2017052901/sc32.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Sol menüden **Azure Active Directory** seçiyoruz.
+
+2. **App registrations** seçeneğine tıklıyoruz.
+
+3. Açılan kısımda **Endpoints**  butonuna tıklıyoruz.
+
+
+-----
+
+![ASPNETCOREAADJWT33](/assets/images/posts/2017052901/sc33.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Gelen ekranda **OAUTH 2.0 TOKEN ENDPOINT** alanı bizim endpoint adresimiz.
+Benim senaryomda endpoint adresi aşağıdaki şekilde sizde daha farklı olacaktır.
+
+https://login.windows.net/64114426-b4a0-4e3a-8efb-9ea15136cd2e/oauth2/token
+
+Kısaca bu adres token almak için POST isteklerimizi yapacağımız adres. 
+
+-----
+
+![ASPNETCOREAADJWT34](/assets/images/posts/2017052901/sc34.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Sol menüden **Azure Active Directory** seçiyoruz.
+
+2. **App registrations** seçeneğine tıklıyoruz.
+
+3. **Native** uygulamamız olan **CorpNativeAPI** a tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT35](/assets/images/posts/2017052901/sc35.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Native** uygulamamızın **Application ID** bilgisini alıp bir kenara not ediyoruz. Token isteği yaparken gerekecek.
+
+
+-----
+
+![ASPNETCOREAADJWT36](/assets/images/posts/2017052901/sc36.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Sol menüden **Azure Active Directory** seçiyoruz.
+
+2. **App registrations** seçeneğine tıklıyoruz.
+
+3. **Web API** uygulamamız olan **CorpAPI**  seçiyoruz.
+
+-----
+
+![ASPNETCOREAADJWT37](/assets/images/posts/2017052901/sc37.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Açıkan kısımdan **Manifest** butonuna tıklıyoruz.
+
+-----
+
+![ASPNETCOREAADJWT38](/assets/images/posts/2017052901/sc38.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Manifest dosyası içerisinde **identifierUris** i buluyoruz. Bu bizim kaynağımızın adı. Bende https://cevizbilgi.com.tr/c97dc3f7-7ae6-4b3d-87c4-ab728339e0ac sizde değişecektir.
+
+-----
+
+Token oluşturmak için gereken bilgiler tamam şimdi isteğimizi oluşturalım.
+
+**Postman** uygulamasını açıyoruz. Siz kendi tercihiniz olan farklı bir uygulama tercih edebilirsiniz.
+
+![ASPNETCOREAADJWT39](/assets/images/posts/2017052901/sc39.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. İstek tipimizi **POST** olarak seçiyoruz.
+
+2. **End Points** ten aldığımız adres. 
+
+Benim için bu adres, https://login.windows.net/64114426-b4a0-4e3a-8efb-9ea15136cd2e/oauth2/token **sizde değişecektir.**
+
+3. **Body** sekmesine tıklıyoruz.
+
+4. **x-www-form-urlencoded** seçeneğini işaretliyoruz.
+
+5. **resource** adında bir key ekliyoruz. Değeri ise manifest dosyasından aldığımız url. Bende bu url https://cevizbilgi.com.tr/c97dc3f7-7ae6-4b3d-87c4-ab728339e0ac şeklindeydi.
+
+6. **grant_type** adında bir key ekliyoruz. Değeri **password**
+
+7. **client_id** adında bir key ekliyoruz. Değeri, **Native** AAD uygulamamızdan aldığımız **Application Id** olacak. Benim için bu değer, 74f671cc-e205-48bc-8d68-a3fec58cd0bd
+
+8. **username** adında bir key ekliyoruz. Değeri kullanıcı adımız benim için **mehmet.kut@cevizbilgi.com.tr**
+
+9. **password** adında bir key ekliyoruz. Değeri hesabımızın şifresi.
+
+10. **Send** butonuna basarak isteğimizi gönderiyoruz.
+
+11. İstek başarılıysa ekrandaki gibi çıktı olacak. **access_token** değeri kaynaklarımıza erişmek için kullanacağımız **JSON Web Token**
+
+12. **access_token** belirli bir süre geçerli olan bir token. Yenilemek her defasında kullanıcı adı ve şifre sormaya gerek yok bunun yerine **refresh token** ı kullarak yeni bir **access token** üretebiliriz.
+
+
 
 
 *makale henüz bitmedi*
