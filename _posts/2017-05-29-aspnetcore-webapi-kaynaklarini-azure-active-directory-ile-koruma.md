@@ -374,7 +374,7 @@ Azure AD konfigürasyonu olan "en az sevdiğim" bölümü tamamladık. 😄
 
 -----
 
-Öncelikle token üretmek için **End Point** adresimizi bulmamız gerekiyor.
+Öncelikle token üretmek için **Endpoint** adresimizi bulmamız gerekiyor.
 
 ![ASPNETCOREAADJWT32](/assets/images/posts/2017052901/sc32.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
@@ -445,7 +445,7 @@ Token oluşturmak için gereken bilgiler tamam şimdi isteğimizi oluşturalım.
 
 1. İstek tipimizi **POST** olarak seçiyoruz.
 
-2. **End Points** ten aldığımız adres. 
+2. **Endpoints** ten aldığımız adres. 
 
 Benim için bu adres, https://login.windows.net/64114426-b4a0-4e3a-8efb-9ea15136cd2e/oauth2/token **sizde değişecektir.**
 
@@ -469,7 +469,103 @@ Benim için bu adres, https://login.windows.net/64114426-b4a0-4e3a-8efb-9ea15136
 
 12. **access_token** belirli bir süre geçerli olan bir token. Yenilemek her defasında kullanıcı adı ve şifre sormaya gerek yok bunun yerine **refresh token** ı kullarak yeni bir **access token** üretebiliriz.
 
+-----
 
+Azure üzerinde barındırılan ASP.NET Core Web API projemize **Postman** ile erişmeye çalışalım.
+
+![ASPNETCOREAADJWT40](/assets/images/posts/2017052901/sc40.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. İstek tipimizi **GET** olarak seçiyoruz.
+
+2. İstek yapacağımız API adresimizi yazıyoruz.
+
+3. **Send** butonuna tıklayarak isteğimizi gönderiyoruz.
+
+4. Görmüş olduğunuz gibi API'a hiç bir güvenlik önlemi olmadan eriştik.
+
+-----
+
+Visual Studio da **CorpAPI** uygulamamıza geri dönelim. WebAPI uygulamamızı güvenli hale getiriyoruz.
+
+-----
+
+![ASPNETCOREAADJWT41](/assets/images/posts/2017052901/sc41.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Package manager Cosole** kısmından NuGet üzerinden **Microsoft.AspNetCore.Authentication.JwtBearer** paketine ihtiyacımız var. **Install-Package Microsoft.AspNetCore.Authentication.JwtBearer** komutu ile paketi projemize ekliyoruz.
+
+-----
+
+![ASPNETCOREAADJWT42](/assets/images/posts/2017052901/sc42.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **appsettings.json** konfigürasyon dosyasını açıyoruz.
+
+2. **AzureAd** konfigürasyon kısmını ekliyoruz.
+
+```json
+
+"AzureAd": {
+    "AadInstance": "https://login.microsoftonline.com/{0}",
+    "Tenant": "64114426-b4a0-4e3a-8efb-9ea15136cd2e",
+    "Audience": "https://cevizbilgi.com.tr/c97dc3f7-7ae6-4b3d-87c4-ab728339e0ac"
+}
+
+```
+**AadInstance** bu değeri değiştirmenize gerek yok.
+**Tenant** bu değeri Token Endpoint adresinizinin içinde bulabilirsiniz.
+**Audience** bu değeri yazı içerisinde Manifest dosyasından almıştık.
+
+-----
+
+![ASPNETCOREAADJWT43](/assets/images/posts/2017052901/sc43.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. **Startup.cs** dosyasını açıyoruz.
+
+2. **ConfigureServices** metodu içerisine aşağıdaki kodu ekliyoruz.
+
+```csharp
+services.AddAuthentication();
+```
+
+3. **Configure** metodu içerisine aşağıdaki kodu ekliyoruz.
+
+```csharp
+// Configure the app to use Jwt Bearer Authentication
+app.UseJwtBearerAuthentication(new JwtBearerOptions
+{
+    AutomaticAuthenticate = true,
+    AutomaticChallenge = true,
+    Authority = String.Format(Configuration["AzureAd:AadInstance"], Configuration["AzureAD:Tenant"]),
+    Audience = Configuration["AzureAd:Audience"],
+});
+```
+
+-----
+
+![ASPNETCOREAADJWT44](/assets/images/posts/2017052901/sc44.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Controllers klasörü altındaki **ValuesController.cs** dosyasını açıyoruz.
+
+2. Aşağıdaki kodu ekliyoruz.
+```csharp
+using Microsoft.AspNetCore.Authorization;
+```  
+
+3. Güvenlik için class ımızın başına aşağıdaki özelliği ekliyoruz.
+```csharp
+[Authorize]
+```  
+
+-----
+
+Bu aşamada uygulamayı Azure ortamına  **Publish** ediyoruz. Yani göneriyoruz.
+
+![ASPNETCOREAADJWT45](/assets/images/posts/2017052901/sc45.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+
+1. Projemize sağ tıklıyoruz.
+
+2. **Publish** seçeneğine tıklıyoruz.
+
+3. Açılacak olan ekrandan **Publish** butonuna tıklayarak uygulamamızı gönderiyoruz.
 
 
 *makale henüz bitmedi*
