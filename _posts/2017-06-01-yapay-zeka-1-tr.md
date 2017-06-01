@@ -179,7 +179,7 @@ Kurzweil, bilgisayarların durumunu 1000 dolara ne kadar h/sn satın alabileceğ
 
 Moore Yasası, dünyadaki maksimum hesap gücünün yaklaşık olarak iki yılda bir ikiye katlandığını, yani insanlığın tarih boyunca süregelen gelişmesi gibi bilgisayar donanımının da üstel olarak gelişme kaydettiğini söyleyen bir yasadır. Bunun, Kurzweil'in 1000 dolar başına düşen h/sn ölçüsüyle olan bağlantısına bakarsak, şu an 1000 dolar başına 10 trilyon h/sn düşüyor. Tam da bu grafiğin tahmin ettiği gibi:
 
-![AI08](/assets/images/posts/2017060101/sc08.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![AI08](/assets/images/posts/2017060101/sc08.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Yani, dünyanın 1000 dolarlık bilgisayarları şu an fare beynini geçmiş durumda ve insan beyninin yaklaşık binde biri seviyedeler. Kulağa pek fazla gelmiyor olabilir, ama 1985'te insan beyninin yaklaşık olarak trilyonda birinde, 1995'te milyarda birinde, 2005'te ise milyonda birindeydik. 2015'te binde birinde olmak, 2025'ten önce insan beyninin gücüne rakip olabilecek bir bilgisayar satın alabilme ihtimalimiz olduğu anlamına geliyor.
 
@@ -255,11 +255,11 @@ Bu yaşandığında ebemizi bile şaşırtabilir. Bunun sebebiyse şu: bizim bak
 
 Şöyle:
 
-![AI09](/assets/images/posts/2017060101/sc09.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![AI09](/assets/images/posts/2017060101/sc09.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Yani YZ bize yaklaşırken onu sadece bir hayvan için daha akıllı hale geliyormuş gibi görüyoruz. Ama sonra, insanlığın en düşük kapasitesine ulaştığında — Nick Bostrom “köy delisi” terimini kullanıyor — “Vay be, resmen aptal bir insan gibi. Çok tatlı ya!” diyeceğiz. Ama şöyle bir şey var ki, zekanın geniş yelpazesinde köyün delisinden tut Einstein'a kadar tüm insanlar çok ufak bir aralıkta — yani yapay zeka köy delisi seviyesine ulaşıp YGZ ilan edildikten hemen sonra, bir anda Einstein'dan daha akıllı olacak ve neye uğradığımızı şaşıracağız:
 
-![AI10](/assets/images/posts/2017060101/sc10.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![AI10](/assets/images/posts/2017060101/sc10.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Peki ya sonra.. ne olacak?
 
