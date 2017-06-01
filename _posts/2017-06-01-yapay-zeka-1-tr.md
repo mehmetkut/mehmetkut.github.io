@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Yapay Zeka Dgelişimi -1- Süperzeka'ya Giden Yol
+title: Yapay Zeka gelişimi -1- Süperzeka'ya Giden Yol
 comments: true
 tags: [Yapay Zeka, Cognitive, Zeka, AI]
-description: Yapay Zeka Dgelişimi -1- Süperzeka'ya Giden Yol
+description: Yapay Zeka gelişimi -1- Süperzeka'ya Giden Yol
 ---
 
 
@@ -69,6 +69,7 @@ Bir S, yeni bir paradigma dünyaya yayıldığında oluşan gelişme dalgası ta
 Yavaş büyüme (üstel büyümenin erken safhası)
 Hızlı büyüme (üstel büyümenin son, patlayıcı safhası)
 Söz konusu paradigma olgunlaştıkça bir düzleşme
+
 Eğer yalnızca yakın geçmişe bakarsanız, S eğrisinin şu an üzerinde bulunduğunuz parçası, gelişmin ne kadar hızlı yaşandığını görmenize engel olabilir. 1995 ve 2007 arasındaki süre zarfı internetin patlamasını, Microsoft, Google ve Facebook'un halk arasında yaygınlaşmasını, sosyal medyanın doğuşunu, ve cep telefonlarının, sonra da akıllı telefonların tanıtımını gördü. 2. Evre buydu: S'nin ani büyüme kısmı. Ama 2008-2015 arası, teknolojik açıdan bakarsak, daha az çığır açıcı oldu. Bugün gelecek hakkında düşünen birisi, şu anki gelişme hızını ölçmek için son birkaç yılı inceleyebilir, ama bu büyük resmi kaçırmak olur. Hatta, tam şu an, yeni ve kocaman bir 2. Evre büyümesi hazırlanma safhasında olabilir.
 
 **3) Kişisel tecrübemiz bizi gelecek hakkında adeta inatçı ihtiyarlar yapıyor.** Dünya hakkındaki düşüncelerimizi kişisel tecrübelerimize dayandırıyoruz, ve bu tecrübe yakın geçmişteki gelişme hızını kafalarımıza "işlerin işleyişi" olarak kazımış durumda. Tecrübemizden gelecek hakkında tahminler yapan hayal gücümüz tarafından da sınırlanmış durumdayız — ama genelde, bildiğimiz şeyler bize gelecek hakkında doğru tahminler yapmak için gereken şeyleri vermiyor. Gelecek hakkında, bizim tecrübeye dayalı "işlerin nasıl işlediği fikri"yle çelişen bir tahmin duyduğumuzda, içgüdümüz bunun saf bir tahmin olduğunu söylüyor. Eğer size, bu yazının ilerleyen kısımlarında, 150 veya 250 yaşına kadar yaşayabileceğinizi, hatta ölmeyeceğinizi söylesem, içgüdünüz "Saçmalık ya — eğer tarihten bildiğim tek bir şey varsa, o da herkesin öldüğüdür." der. Ve evet, geçmişte ölmeyen kimse olmadı. Fakat uçaklar icat edilmeden önce uçak uçuran kimse de olmamıştı.
@@ -85,11 +86,11 @@ Eğer siz de benim gibiyseniz, Yapay Zeka'nın absürd bir bilim kurgu konsepti 
 
 Birçok insanın YZ terimi hakkında kafasının karışık olmasının üç sebebi var:
 
-1) YZ'yi filmlerle ilişkilendiriyoruz. Yıldız Savaşları. Terminatör. 2001: Bir Uzay Destanı. Hatta Jetgiller. Bunların hepsi kurgu, robot karakterler de. O yüzden YZ de biraz kurgu gibi geliyor bize.
+1. YZ'yi filmlerle ilişkilendiriyoruz. Yıldız Savaşları. Terminatör. 2001: Bir Uzay Destanı. Hatta Jetgiller. Bunların hepsi kurgu, robot karakterler de. O yüzden YZ de biraz kurgu gibi geliyor bize.
 
-2) YZ geniş bir konu. Telefonunuzun hesap makinesinden sürücüsüz arabalara ve gelecekte dünyayı önemli ölçüde değiştirebilecek bir şeye kadar dağılım gösteriyor. YZ bunların hepsini kapsıyor, bu da biraz kafa karıştırıcı haliyle.
+2. YZ geniş bir konu. Telefonunuzun hesap makinesinden sürücüsüz arabalara ve gelecekte dünyayı önemli ölçüde değiştirebilecek bir şeye kadar dağılım gösteriyor. YZ bunların hepsini kapsıyor, bu da biraz kafa karıştırıcı haliyle.
 
-3) Günlük yaşamlarımızda YZ'yi sürekli kullanıyoruz, ama YZ olduğunun genelde farkında olmuyoruz. 1956'da "Yapay Zeka" terimini bulan John McCarthy, "YZ çalıştığında artık kimsenin ona YZ demediğinden" şikayetçiydi. Bu fenomen yüzünden, YZ kulağa genellikle bir gerçeklikten ziyade efsanevi bir gelecek tahmini gibi geliyor. Aynı zamanda, geçmişten gelen ve hiçbir zaman meyve verememiş olan bir pop konsepti gibi duruyor. Ray Kurzweil, YZ'nin 1980'lerde solduğunu söyleyen insanlar duyduğunu, kendilerini "2000li yılların başlarında nokta-com iflasıyla internetin öldüğü konusunda ısrarcı olanlara" benzettiğini söylüyor.
+3. Günlük yaşamlarımızda YZ'yi sürekli kullanıyoruz, ama YZ olduğunun genelde farkında olmuyoruz. 1956'da "Yapay Zeka" terimini bulan John McCarthy, "YZ çalıştığında artık kimsenin ona YZ demediğinden" şikayetçiydi. Bu fenomen yüzünden, YZ kulağa genellikle bir gerçeklikten ziyade efsanevi bir gelecek tahmini gibi geliyor. Aynı zamanda, geçmişten gelen ve hiçbir zaman meyve verememiş olan bir pop konsepti gibi duruyor. Ray Kurzweil, YZ'nin 1980'lerde solduğunu söyleyen insanlar duyduğunu, kendilerini "2000li yılların başlarında nokta-com iflasıyla internetin öldüğü konusunda ısrarcı olanlara" benzettiğini söylüyor.
 
 Şimdi bunları bir düzene sokalım. Birincisi, robotları düşünmeyi bırakın. Bir robot, bazen insan biçimini taklit eden, bazen ise etmeyen bir taşıyıcı sadece —  YZ ise, robotun içindeki bilgisayar. YZ beyin, robot ise vücudu — varsa tabii. Örneğin, Siri'nin ardındaki yazılım ve veri Yapay Zeka, duyduğumuz kadın sesi o Yapay Zekanın kişileştirilmiş hali. İşin içinde robot falan yok gördüğünüz üzere.
 
@@ -97,11 +98,11 @@ Birçok insanın YZ terimi hakkında kafasının karışık olmasının üç seb
 
 Son olarak, YZ geniş bir konsept olduğu için birçok farklı YZ tipi veya biçimi olsa da, düşünmemiz gereken kritik kategoriler YZ'nin kapasitesine bağlı. Üç ana kapasite kategorisi var:
 
-YZ Kapasite 1) Yapay Dar Zeka (YDZ): Bazen Zayıf YZ olarak da isimlendirilen Yapay Dar Zeka, bir alanda uzmanlaşan YZ'dir. Satrançta dünya şampiyonunu yenebilen bir YZ var, ama yapabildiği tek şey bu. Bir hard diskte veri depolamanın daha iyi bir yolunu bulmasını söyleyin, size boş boş bakacaktır.
+**YZ Kapasite 1) Yapay Dar Zeka (YDZ):** Bazen Zayıf YZ olarak da isimlendirilen Yapay Dar Zeka, bir alanda uzmanlaşan YZ'dir. Satrançta dünya şampiyonunu yenebilen bir YZ var, ama yapabildiği tek şey bu. Bir hard diskte veri depolamanın daha iyi bir yolunu bulmasını söyleyin, size boş boş bakacaktır.
 
-YZ Kapasite 2) Yapay Genel Zeka (YGZ): Bazen Güçlü YZ veya İnsan Seviyesinde YZ olarak da isimlendirilen Yapay Genel Zeka, her konuda bir insan kadar akıllı bir bilgisayardır — bir insanın yapabileceği herhangi bir düşünsel aktiviteyi gerçekleştirebilecek bir makine. YGZ'yi oluşturmak YDZ'yi oluşturmaktan çok daha zor bir iştir, ve henüz başarabilmiş değiliz. Profesör Linda Gottfredson zekayı "diğer şeylere ek olarak, akıl yürütme, planlama, problem çözme, soyut düşünme, kompleks fikirleri kavrama, hızlı öğrenme, ve tecrübeden öğrenme yeteneklerini içeren genel bir düşünsel kabiliyet" olarak tanımlıyor.  YGZ tüm o şeyleri en az sizin kadar kolay yapabilir.
+**YZ Kapasite 2) Yapay Genel Zeka (YGZ):** Bazen Güçlü YZ veya İnsan Seviyesinde YZ olarak da isimlendirilen Yapay Genel Zeka, her konuda bir insan kadar akıllı bir bilgisayardır — bir insanın yapabileceği herhangi bir düşünsel aktiviteyi gerçekleştirebilecek bir makine. YGZ'yi oluşturmak YDZ'yi oluşturmaktan çok daha zor bir iştir, ve henüz başarabilmiş değiliz. Profesör Linda Gottfredson zekayı "diğer şeylere ek olarak, akıl yürütme, planlama, problem çözme, soyut düşünme, kompleks fikirleri kavrama, hızlı öğrenme, ve tecrübeden öğrenme yeteneklerini içeren genel bir düşünsel kabiliyet" olarak tanımlıyor.  YGZ tüm o şeyleri en az sizin kadar kolay yapabilir.
 
-YZ Kapasite 3) Yapay Süperzeka (YSZ): Oxford'lu filozof ve önde gelen YZ düşünürlerinden Nick Bostrom, süperzekayı "bilimsel gelişim, genel bilgelik ve sosyal yetenekler dahil olmak üzere neredeyse her alandaki en iyi insan beyinlerinden çok daha akıllı olan bir zeka" olarak tanımlıyor. Yapay Süperzeka, bir insandan birazcık daha akıllı olan bir bilgisayardan milyarlarca kat akıllı olan bir bilgisayara kadar hepsini kapsıyor. Yapay Zeka konusunun bu kadar çetrefilli	olmasının ve hem ölümsüzlük, hem de yok olma kelimelerinin bu yazılarda birden fazla geçecek olmasının sebebi YSZ.
+**YZ Kapasite 3) Yapay Süperzeka (YSZ):** Oxford'lu filozof ve önde gelen YZ düşünürlerinden Nick Bostrom, süperzekayı "bilimsel gelişim, genel bilgelik ve sosyal yetenekler dahil olmak üzere neredeyse her alandaki en iyi insan beyinlerinden çok daha akıllı olan bir zeka" olarak tanımlıyor. Yapay Süperzeka, bir insandan birazcık daha akıllı olan bir bilgisayardan milyarlarca kat akıllı olan bir bilgisayara kadar hepsini kapsıyor. Yapay Zeka konusunun bu kadar çetrefilli	olmasının ve hem ölümsüzlük, hem de yok olma kelimelerinin bu yazılarda birden fazla geçecek olmasının sebebi YSZ.
 
 Şu an insanlık YZ'nin en düşük kapasitesini —YDZ'yi— birçok şekilde zaptetti ve her yerde kullanıyor. YZ Dgelişimi YDZ'den, YGZ aracılığıyla YSZ'ye giden bir yol — sağ kurtulamayabileceğimiz bir yol, ama ne olursa olsun her şeyi değiştirecek bir yol.
 
@@ -153,7 +154,7 @@ Buraya kadar eşit durumdasınız. Ama siyahı kaldırıp resmin tamamını gös
 
 ![AI06](/assets/images/posts/2017060101/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-...mat ve yarı saydam silindirleri, çubukları ve üç boyutlu köşeleri rahatça betimleyebilirsiniz, ama bilgisayar fena halde çuvallardı. Bilgisayar gördüğünü betimlerdi — farklı tonda birkaç farklı iki boyutlu şekil, ki resimdeki de aslında bu. Beyniniz resmin vermek istediği derinliği, ton karışımını ve oda ışıklandırmasını yorumlamak için bir sürü şey yapıyor. Ve aşağıdaki resimde siz ne olduğunu —tamamiyle siyah, üç boyutlu bir kayanın fotoğrafı — kolaylıkla görürken, bir bilgisayar ise iki boyutlu beyaz, siyah ve griden oluşan bir kolaj görüyor:
+Mat ve yarı saydam silindirleri, çubukları ve üç boyutlu köşeleri rahatça betimleyebilirsiniz, ama bilgisayar fena halde çuvallardı. Bilgisayar gördüğünü betimlerdi — farklı tonda birkaç farklı iki boyutlu şekil, ki resimdeki de aslında bu. Beyniniz resmin vermek istediği derinliği, ton karışımını ve oda ışıklandırmasını yorumlamak için bir sürü şey yapıyor. Ve aşağıdaki resimde siz ne olduğunu —tamamiyle siyah, üç boyutlu bir kayanın fotoğrafı — kolaylıkla görürken, bir bilgisayar ise iki boyutlu beyaz, siyah ve griden oluşan bir kolaj görüyor:
 
 ![AI07](/assets/images/posts/2017060101/sc07.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
@@ -221,9 +222,9 @@ Buradaki fikir şu, ana iki yeteneği YZ üstünde araştırma yapmak ve kendine
 
 Donanım sahasındaki hızlı gelişmeler ve yazılım sahasındaki yenilikçi deneyler aynı anda gerçekleşiyor. YGZ iki sebepten dolayı biz farkında olmadan beklenmedik bir anda ve hızlıca gelebilir:
 
-1) Üstel büyüme oldukça etkileyici olabilir ve salyangoz hızında bir şey hızla yükselişe geçebilir — şu gif bunu gayet güzel bir biçimde gösteriyor.
+1. Üstel büyüme oldukça etkileyici olabilir ve salyangoz hızında bir şey hızla yükselişe geçebilir — şu gif bunu gayet güzel bir biçimde gösteriyor.
 
-2) Söz konusu yazılım olduğunda ilerleme yavaş gözükebilir, fakat bir buluş, ilerleme hızını anında değiştirebilir (insanlar uzayı dünya merkezli düşünürken bilimin açıklayamadığı şeylerin olması, ama güneş merkezli olduğunu keşfetmenin her şeyi kolaylaştırmış olması gibi). Veya söz konusu kendi kendini geliştiren bir bilgisayar olduğunda başarıya ulaşmamıza çok varmış gibi dursa da, belki sistemi bin kat verimli hale getirip insan seviyesinde zekaya doğru yükselişe geçirmek yalnızca yapılacak ince bir ayara bakıyordur.
+2. Söz konusu yazılım olduğunda ilerleme yavaş gözükebilir, fakat bir buluş, ilerleme hızını anında değiştirebilir (insanlar uzayı dünya merkezli düşünürken bilimin açıklayamadığı şeylerin olması, ama güneş merkezli olduğunu keşfetmenin her şeyi kolaylaştırmış olması gibi). Veya söz konusu kendi kendini geliştiren bir bilgisayar olduğunda başarıya ulaşmamıza çok varmış gibi dursa da, belki sistemi bin kat verimli hale getirip insan seviyesinde zekaya doğru yükselişe geçirmek yalnızca yapılacak ince bir ayara bakıyordur.
 
 # Yapay Genel Zeka'dan Yapay Süperzeka'ya Giden Yol
 
