@@ -36,7 +36,7 @@ Bir senaryo eşliğinde anlatmak istiyorum.
 
 ### Senaryo
 
-Haftalık olarak finans dergisi yayınlayan bir şirket. Bilgi işlem giderlerini azaltmak istiyor.
+Haftalık olarak finans dergisi yayınlayan bir şirket. Bilgi işlem operasyonlarını azaltmak istiyor.
 
 -----
 
@@ -84,8 +84,13 @@ Buradaki şirket kazanımı, işletim sistemi, antivirüs, veritabanı ve diğer
 
 -----
 
-### Veri Merkezi
+### Veri Merkezleri
 
-Bulut bilişimin kalbi veri merkezleridir. 
+Bulut bilişimin kalbi veri merkezleridir. Tüm verileriniz ve işlemleriniz bu devasa merkezlerlerde sağlanır. Bodrum katınızla veya şirketinizde sunucularınız için ayırdığınız bir kattan oldukça büyük ve güvenlidir. Çeşitli denetim organizasyonları tarafından sıkça denetlenirler.
+
+
+## Azure
+
+
 
 *makale henüz bitmedi*
