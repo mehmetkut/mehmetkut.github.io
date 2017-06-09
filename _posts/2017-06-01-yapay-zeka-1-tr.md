@@ -7,7 +7,7 @@ description: Yapay Zeka gelişimi -1- Süperzeka'ya Giden Yol
 ---
 
 
-> Yazar Notu: Bu yazıyı bitirmemin üç hafta sürmesinin nedeni Yapay Zeka konusunda araştırma yaparken okuduğum şeylere inananamış olmam. YZ dünyasında yaşananların yalnızca önemli bir konu değil, açık ara farkla geleceğimiz için EN önemli konu olduğunu anladım. Bu yüzden hakkında öğrenebildiğim kadar çok şey öğrenmek istedim, sonra da bu konuyu ve neden bu kadar önemli olduğunu açıklayacak bir yazı yazdığımdan emin olmak istedim. Tabii ki yazı bayağı uzun oldu, bu yüzden iki bölüme ayırdım. Bu Bölüm 1  — Bölüm 2 gelecek.
+> Yazar Notu: Bu yazıyı bitirmemin üç hafta sürmesinin nedeni Yapay Zeka konusunda araştırma yaparken okuduğum şeylere inananamış olmam. YZ dünyasında yaşananların yalnızca önemli bir konu değil, açık ara farkla geleceğimiz için EN önemli konu olduğunu anladım. Bu yüzden hakkında öğrenebildiğim kadar çok şey öğrenmek istedim, sonra da bu konuyu ve neden bu kadar önemli olduğunu açıklayacak bir yazı yazdığımdan emin olmak istedim. Tabii ki yazı bayağı uzun oldu, bu yüzden iki bölüme ayırdım. Bu Bölüm 1  — [Bölüm 2 burada.](http://mehmetkut.com/2017/06/yapay-zeka-2-tr/ "Bölüm 2 burada.")
 
 -----
 
