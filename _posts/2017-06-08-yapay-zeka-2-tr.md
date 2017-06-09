@@ -101,7 +101,9 @@ Peki tüm bu fikirleri bir araya topladığımızda ortaya ne çıkıyor?
 2013'te, Vincent C. Müller ve Nick Bostrom bir dizi konferansta yüzlerce YZ uzmanına bir anket düzenledi ve şu soruyu sordu: “Bu soru için insanların bilimsel aktivitesinin büyük bir engel olmadan devam ettiğini varsayın. Hangi yılda İSMZ (İnsan Seviyesinde Makine Zekası)‘nin var olmasına (%10 / %50 %90) ihtimal verirdiniz?” Onlardan iyimser bir yıl (YGZ'ye ulaşma şansımızın %10 olduğuna inandıkları bir yıl), gerçekçi bir tahmin (YGZ'ye %50 ihtimal verdikleri bi yıl, diğer bir deyişle bu yıldan sonra YGZ'ye ulaşmış olma ihtimalimiz, ulaşmamış olma ihtimalimizden daha yüksek), ve güvenli bir tahmin (%90 ihtimalle YGZ'ye ulaşacağımızı düşündükleri en erken yıl) istediler. Bir araya getirildiklerinde, sonuçlar şöyleydi:
 
 Ortalama iyimser yıl (%10 ihtimal): **2022**
+
 Ortalama realistik yıl (%50 ihtimal): **2040**
+
 Ortalama kötümser yıl (%90 ihtimal): **2075**
 
 Yani ortalama katılımcı, 25 yıl sonra YGZ'ye ulaşmış olma ihtimalimizin, ulaşmamış olma ihtimalimizden yüksek olduğunu düşünüyor. %90 ihtimalin ortalama cevabı olan 2075 şu anlama geliyor: eğer şu an bir ergenseniz, ortalama katılımcı, YZ uzmanlarının diğer yarısıyla beraber, YGZ'yi görmeye ömrünüzün yeteceğini söylüyor.
@@ -109,9 +111,13 @@ Yani ortalama katılımcı, 25 yıl sonra YGZ'ye ulaşmış olma ihtimalimizin, 
 Yazar James Barrat tarafından Ben Goertzel'in yıllık YGZ Konferansı'nda yapılan bir başka araştırma ise yüzdeleri atarak katılımcılara yalnızca YGZ'ye ne zaman ulaşılacağını sordu—2030'a kadar, 2050'ye kadar, 2100'e kadar, 2100'den sonra, veya asla. Sonuçlar:
 
 2030'a kadar: **Katılımcıların %42'si**
+
 2050'ye kadar: **%25**
+
 2100'e kadar: **%20**
+
 2100'den sonra: **%10**
+
 Asla: **%2**
 
 Müller ve Bostrom'un sonuçlarına oldukça yakın. Barrat'ın anketinde, katılımcıların üçte ikisinden fazlası YGZ'nin 2050'ye kadar geleceğine inanıyor. Katılımcıların yarısından biraz azı ise YGZ'yi önümüzdeki 15 yıl içinde görmeyi bekliyor. YGZ'nin geleceğimizin bir parçası olmadığını düşünen yalnızca %2'lik kısım da dikkat çekici.
@@ -144,7 +150,7 @@ Tabii ki uzmanlar topluluğu yine bu sorunun cevabı için hararetli bir tartı�
 
 Ana Taraf hakkında birazdan konuşacağız, ama önce—sizin olayınız nedir? Aslında olayınızın ne olduğunu biliyorum, çünkü bu konuyu araştırmaya başlamadan önce benim de olayımdı. Çoğu insanın bu konu hakkında pek düşünmüyor oluşunun bazı nedenleri:
 
-1. bölümde de bahsettiğimiz gibi, gerçekçi olmayan YZ senaryolarına sahip filmler bize YZ'nin genel olarak ciddiye alınmayacak bir şey olduğunu hissettirerek ortalığı karıştırdı. James Barrat bu durumu, Hastalık Kontrol Merkezi (CDC) bize gelecekte görülebilecek bir vampir tehdidi için ciddi bir uyarı yayınlasa vereceğimiz tepkiye benzetiyor.
+Birinci bölümde de bahsettiğimiz gibi, gerçekçi olmayan YZ senaryolarına sahip filmler bize YZ'nin genel olarak ciddiye alınmayacak bir şey olduğunu hissettirerek ortalığı karıştırdı. James Barrat bu durumu, Hastalık Kontrol Merkezi (CDC) bize gelecekte görülebilecek bir vampir tehdidi için ciddi bir uyarı yayınlasa vereceğimiz tepkiye benzetiyor.
 Bilişsel önyargı nedeniyle, bir şeyin gerçek olduğuna kanıt görmeden inanmakta zorluk çekiyoruz. Eminim ki 1988'de bilgisayar uzmanları internetin ne kadar büyük bir şey olacağı hakkında devamlı konuşuyorlardı, ama insanlar internetin hayatlarını değiştireceklerini pek düşünmüyorlardı—ta ki değiştirene dek. Bunun sebeplerinden birisi bilgisayarların 1988'de pek bir şey yapamıyor oluşlarıydı, yani insanlar bilgisayarlarına bakıp “Gerçekten mi? Bu mu değiştirecek hayatımı?” diye düşünüyorlardı. Hayal güçleri, kişisel tecrübelerinin onlara bir bilgisayarın ne olduğunu öğrettikleriyle sınırlıydı. Bu da bilgisayarların ne olabileceklerini hayal etmelerini zorlaştırdı. Aynı şey şimdi YZ ile yaşanıyor. Büyük bir şey olacağını duyuyoruz, ama henüz gerçekleşmediği için ve günümüzdeki YZ ile olan kişisel tecrübelerimiz yüzünden, bunun hayatımızı önemli ölçüde değiştireceğine inanmakta güçlük çekiyoruz. Ve bu önyargılar, her gün kendilerimizle ilgilenmekteyken uzmanların bizim dikkatimizi çekmeye çalışırken karşılaştıkları şeyler.
 İnanıyor olsak bile—bugün kaç kere sonsuzluğun geriye kalan büyük bir kısmını var olmayarak geçireceğiniz gerçeği üzerinde düşündünüz? Çok değil, değil mi? Ortada bugün yapmakta olduğunuz başka şeylere kıyasla çok daha çarpıcı bir gerçek olmasına rağmen? Bunun sebebi beyinlerimizin günlük küçük şeylere odaklanmış olması, içinde bulunduğumuz durum ne kadar uzun vadeli ve çılgın olsa da. Yapımız böyle.
 Bu iki yazının hedeflerinden biri de sizi Başka Şeyler Hakkında Düşünmeyi Seviyorum Tarafı'ndan çıkarmak ve uzman taraflarından birine yerleştirmek. Yukarıdaki karedeki iki kesik çizginin birleştiği yerde, tamamen kararsız bir halde duruyor olsanız bile.
