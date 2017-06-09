@@ -124,7 +124,7 @@ Ayrıca Microsoft Azure üzerinde oluşturduğumuz bir makinayı kendi sistemimi
 
 ### IaaS, PasS, SaaS kavramları
 
-![SC01](/assets/images/posts/2017051501/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC02](/assets/images/posts/2017051501/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Bu kavramları sıkça duyacaksınız. Gelin senaryomuza geri dönelim. Senaryomuzdaki ilk iyileştirmemizde şirketimiz çözümümü IaaS olarak sağladı. İkinci iyileştirmede ise PaaS. Şirket sonraki aşamada SaaS çözümlerler ile süreçlerini iyileştirmeye devam edebilir.
 
