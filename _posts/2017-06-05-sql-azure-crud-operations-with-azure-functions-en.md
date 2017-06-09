@@ -7,7 +7,7 @@ description:  SQL Azure CRUD operations with Azure Functions.
 ---
 
 
-In this article I will show you how to do database operations with **Azure Function**. Our DB will be Azure SQLDB
+In this article I will show you how to do database operations with **Azure Function**.
 
 ### Scenario 
 
