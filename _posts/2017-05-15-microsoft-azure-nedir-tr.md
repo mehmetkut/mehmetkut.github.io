@@ -159,4 +159,4 @@ Bu servis türünde; bu kez, herhangi bir uygulama, data, storage, sunucu ve san
 
 ### Bitirirken
 
-Bu makalede sizlerle Bulut Bilişime  temel seviyede bir giriş yaptık, bunun yanı sıra en yaygın kullanılan Microsoft Azure Cloud Service hizmeti hakkında genel bir bilgi saihibi olduk.
+Bu makalede sizlerle Bulut Bilişime  temel seviyede bir giriş yaptık, bunun yanı sıra en yaygın kullanılan Microsoft Azure Cloud Service hizmeti hakkında genel bir bilgi sahibi olduk.
