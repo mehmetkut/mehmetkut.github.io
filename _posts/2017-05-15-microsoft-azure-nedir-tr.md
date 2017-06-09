@@ -89,7 +89,8 @@ Buradaki şirket kazanımı, işletim sistemi, antivirüs, veritabanı ve diğer
 Bulut bilişimin kalbi veri merkezleridir. Tüm verileriniz ve işlemleriniz bu devasa merkezlerlerde sağlanır. Bodrum katınızla veya şirketinizde sunucularınız için ayırdığınız bir kattan oldukça büyük ve güvenlidir. Çeşitli denetim organizasyonları tarafından sıkça denetlenirler.
 
 [![Microsoft Veri Merkezi](http://img.youtube.com/vi/ZJTiC6gpVto/0.jpg)](http://www.youtube.com/watch?v=ZJTiC6gpVto "Microsoft Veri Merkezi")
-*İzlemek için tıklayın*
+
+[İzlemek için tıklayın.](http://www.youtube.com/watch?v=ZJTiC6gpVto "İzlemek için tıklayın.")
 
 -----
 
