@@ -14,13 +14,13 @@ Not: Yapay Zeka hakkında iki bölümlük bir yazının 2. bölümü bu. [Bölü
 
 Birinci bölüm oldukça masum başladı, Yapay Dar Zeka'dan, veya YDZ'den (sürüş rotası bulmak veya satranç oynamak gibi, tek bir görevde uzmanlaşan YZ) ve bugün hayatımızın her yerinde nasıl kullanıldığından bahsettik. Sonra YDZ'den Yapay Genel Zeka'ya, veya YGZ'ye (genel olarak en az bir insan kadar akıllı YZ) geçmenin neden zor olduğunu inceledik, ve geçmişte gördüğümüz teknolojinin üstel gelişiminin neden YGZ'nin aslında göründüğü kadar uzak olmayabileceği anlamına geldiğini konuştuk. Birinci bölüm, makinelerimiz insan seviyesinde zekaya ulaştıklarında hemen şunu yapabilecekleri gerçeğini yüzünüze vurmamla sonlanmıştı:
 
-![SC01](/assets/images/posts/2017051501/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC01](/assets/images/posts/2017060801/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
-![SC02](/assets/images/posts/2017051501/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC02](/assets/images/posts/2017060801/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
-![SC03](/assets/images/posts/2017051501/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC03](/assets/images/posts/2017060801/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
-![SC04](/assets/images/posts/2017051501/sc04.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC04](/assets/images/posts/2017060801/sc04.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Kendimizi ekrana bakakalmış, ömrümüzün görmeye yeteceği Yapay Süperzeka, veya YSZ (genel olarak herhangi bir insandan çok daha zeki olan YZ) fikriyle ve bunu düşünürken ne hissetmemiz gerektiğini anlamaya çalışırken bulduk.
 
@@ -34,19 +34,19 @@ Ama olay yalnızca bir şempanzenin bizim yapabildiklerimizi yapamaması değil,
 
 Ve bugün bahsetmekte olduğumuz zeka aralığında, veyahut biyolojik canlılar arasındaki çok daha küçük aralıklarda, şempanze-insan arasındaki zeka kalitesi farkı ufacık kalıyor. Daha önceki bir yazımda, biyolojik bilişsel kapasiteyi bir merdiven kullanarak betimlemiştim:
 
-![SC05](/assets/images/posts/2017051501/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC05](/assets/images/posts/2017060801/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Süperzeki bir makinenin ne kadar büyük bir olay olacağını anlayabilmek için, insanlardan iki adım yukarıdaki koyu yeşil basamakta bir makine hayal edin. Bu makine yalnızca birazcık süperzeki olurdu, ama bizden üstün bilişsel yeteneği, az önce bahsettiğimiz şempanze-insan aralığı kadar büyük olurdu. Ve şempanzenin, gökdelenlerin inşa edilebildiğini anlayamaması gibi, biz de koyu yeşil basamaktaki bir makinenin yapabileceği şeyleri yapmayı geçtim, anlayamayacağız—bize açıklamaya çalışsa bile. Ve bu bizden yalnızca iki basamak yukarıda. En üstten ikinci basamaktaki bir makine bize, biz karıncalara ne isek o olurdu. Bildiği şeylerin en ufak bir parçasını öğretmek için bile yıllarını harcayabilirdi ama boşuna çabalamış olurdu.
 
 Ama bugün bahsedeceğimiz süperzeka bu merdivendeki herhangi bir şeyin çok daha ötesinde. Bir zeka patlamasında—bir makinenin daha akıllı hale geldikçe zekasını daha hızlı geliştirebilmesi ve nihayet yukarı doğru fırlayışa geçmesi anlamına geliyor—, bir makinenin şempanze basamağından bir üst basamağa atlaması yıllar sürebilir. Fakat bizim iki üstümüzdeki koyu yeşil basamağa ulaştığında belki de yalnızca saatler içinde bir basamak daha atlayacak. Bizim on basamak üstümüze ulaştığında ise her saniye dörder basamak atlayacak. İşte bu yüzden şunu anlamamız gerek: insan seviyesinde YGZ'ye ulaşan ilk makine haberlere çıktıktan kısa bir süre sonra, merdivende yeri şurada (ya da belki milyon kat daha yüksekte) olan bir şeyle aynı Dünya'da bulunma ihtimalimiz var:
 
-![SC06](/assets/images/posts/2017051501/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC06](/assets/images/posts/2017060801/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Ve iki basamak üstümüzdeki bir makinenin gücünü anlamaya çalışmanın boşuna olacağını az önce söyledik, o yüzden şunu kesinlikle belirleyelim: YSZ'nin yapacaklarını veya bizim için ne gibi sonuçlar doğuracağını bilmemizin imkanı yok. Ne şimdi, ne daha sonra. Aksini düşünen biri, süperzekanın ne anlama geldiğini anlamıyordur.
 
 Dna, biyolojik beyni yüzlerce milyon yıl boyunca yavaşça ve aşama aşama geliştirdi. Buna göre eğer insanlar bir YSZ makinesi oluşturursa, Dna ayaklarımız altında ezmiş olacağız. Veya belki bu da devrimin bir parçasıdır—belki Devrim böyle çalışıyordur:  zeka yavaş yavaş artarak makine süperzekası oluşturabilecek seviyeye ulaşır ve bu seviye, oyunun kurallarını değiştirecek ve yaşayan her şey için yeni bir gelecek belirleyecek dünya genelinde bir patlamayı tetikleyen bir teldir:
 
-![SC07](/assets/images/posts/2017051501/sc07.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC07](/assets/images/posts/2017060801/sc07.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Ve daha sonra konuşacağımız sebeplerden dolayı, bilim dünyasının büyük bir kısmı olayın tele takılıp takılmayacağımız değil, ne zaman takılacağımız olduğunu düşünüyor. Biraz çılgın bir bilgi.
 
@@ -56,13 +56,13 @@ Valla dünyada hiçkimse, özellikle ben, tele takıldığımızda ne olacağın
 
 Birincisi, tarihe bakarsak hayatın şöyle işlediğini görebiliriz: türler ortaya çıkar, bir süre var olur ve bir süre sonra, kaçınılmaz olarak hayat denge kalasından itilir ve “yok olma"ya düşerler—
 
-![SC08](/assets/images/posts/2017051501/sc08.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC08](/assets/images/posts/2017060801/sc08.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Tarih boyunca "Tüm türler eninde sonunda yok olur” kuralı, neredeyse “Tüm insanlar eninde sonunda ölür” kuralı kadar geçerli olmuştur. Bugüne kadar türlerin %99.9'u denge kalasından düştü. Ve bir canlı türü kalasta sendelemeye devam ettikçe; başka bir tür, doğanın bir rüzgarı veya kalası yerinden oynatan bir asteroit tarafından düşürülmesi yalnızca bir zaman meselesi. Bostrom “yok olma"ya bir cazibe merkezi diyor—tüm türlerin sendeleyerek düştüğü ve hiçbir türün geri dönemediği bir yer.
 
 Karşılaştığım birçok bilim insanı YSZ'nin insanları yok olmaya gönderme gücünün olacağını kabul etse de, birçoğu eğer yararımıza kullanılırsa YSZ'nin gücünün bazı bireyleri ve komple türümüzü ikinci bir cazibe merkezine getirebileceğini düşünüyor—tür ölümsüzlüğü. Bostrom, tür ölümsüzlüğünün en az tür yok olması kadar bir cazibe merkezi olduğuna inanıyor, yani diğer bir deyişle, eğer oraya varmayı başarırsak yok olmaya sonsuza dek dayanıklı olacağız—faniliği ve şansı yenmiş olacağız. Yani bugüne dek tüm türler denge kalasından düşüp yok olmaya konmuş olsa da, Bostrom kalasın iki tarafı olduğunu ve şimdiye kadar Dünya'daki hiçbir şeyin diğer tarafa nasıl konulacağını bulacak kadar zeki olmadığını düşünüyor.
 
-![SC09](/assets/images/posts/2017051501/sc09.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC09](/assets/images/posts/2017060801/sc09.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Eğer Bostrom ve diğerleri haklıysa, ki okuduklarıma göre gerçekten olabilirler, sindirmemiz gereken iki şaşırtıcı gerçek var:
 
@@ -82,7 +82,7 @@ Diğer bir deyişle: Bir makinenin süperzekaya ulaşmasına ne kadar var?
 
 Pek şaşırtıcı gelmeyecek ama, bu bilim insanları ve düşünürler arasında hararetli bir tartışma ve birçok farklı düşünce var. Birçoğu; profesör Vernor Vinge, bilim insanı Ben Goertzel, Sun Microsystems'ın kurucularından Bill Joy, veya aralarında en ünlüsü, mucit ve fütürist Ray Kurzweil, makine öğreniminde uzman Jeremy Howard'ın bir TED konuşmasında gösterdiği şu grafikle hemfikir durumda:
 
-![SC10](/assets/images/posts/2017051501/sc10.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC10](/assets/images/posts/2017060801/sc10.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Adı geçen insanlar, bunun yakın bir zamanda yaşanacağına inanıyor: üstel büyüme gerçekleşiyor ve makine öğrenimi, şu an peşimizden yavaşça gelse de, önümüzdeki birkaç on yıl içinde yanımızdan basıp gidecek.
 
@@ -124,7 +124,7 @@ Ortalama cevap hızlı (2 yıl) bir YGZ → YSZ geçişinin %10 ihtimale sahip o
 
 Bu verilerden ortalama cevabın ne kadar uzunlukta bir geçiş süresine %50 ihtimal verdiğini çıkaramıyoruz, ama yaklaşık olsun diye yukarıdaki iki cevaba bakarak 20 yıl dediklerini varsayalım. Yani ortalama düşünce—YZ uzmanlarının dünyasının tam merkezindeki düşünce—, YSZ teline takılacağımız en gerçekçi tahminin [YGZ için 2040 tahmini + bizim YGZ-YSZ geçişi için 20 yıl varsayımımız] = 2060 olduğu yönünde.
 
-![SC11](/assets/images/posts/2017051501/sc11.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC11](/assets/images/posts/2017060801/sc11.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Tabii ki yukarıdaki tüm istatistikler varsayım ve yalnızca YZ uzmanları topluluğunun merkezindeki fikri yansıtıyor. Ama yine de bize, bu konu hakkındaki en bilgili insanların büyük bir kısmının, dünyayı değiştirme potansiyeline sahip olabilecek YSZ'nin gelişi için 2060 yılının makul bir tahmin olduğunu söylüyor. Yalnızca 45 yıl sonrası.
 
@@ -140,7 +140,7 @@ Tabii ki uzmanlar topluluğu yine bu sorunun cevabı için hararetli bir tartı�
 
 İyi vs. kötü sonuç kısmına dalmadan önce, bu sorunun “ne zaman olacak?” ve “iyi mi olacak kötü mü?” kısımlarını, çoğu uzmanın görüşlerini yansıtan bir grafikte birleştirelim.
 
-![SC12](/assets/images/posts/2017051501/sc12.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC12](/assets/images/posts/2017060801/sc12.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Ana Taraf hakkında birazdan konuşacağız, ama önce—sizin olayınız nedir? Aslında olayınızın ne olduğunu biliyorum, çünkü bu konuyu araştırmaya başlamadan önce benim de olayımdı. Çoğu insanın bu konu hakkında pek düşünmüyor oluşunun bazı nedenleri:
 
@@ -151,7 +151,7 @@ Bu iki yazının hedeflerinden biri de sizi Başka Şeyler Hakkında Düşünmey
 
 Araştırmam sırasında bu konu hakkında düzinelerce farklı düşünceye denk geldim, ama hemen fark ettim ki çoğu insanın düşünceleri Ana Taraf diye adlandırdığım kısımda bir yere düşüyor. Özellikle de uzmanların dörtte üçünden fazlası, Ana Tarafın içinde bulunan iki altbölüme düşüyor.
 
-![SC13](/assets/images/posts/2017051501/sc13.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC13](/assets/images/posts/2017060801/sc13.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Bu iki kampın bir ucundan girip diğer ucundan çıkacağız. Eğlenceli olanla başlayalım.
 
@@ -161,7 +161,7 @@ Bu iki kampın bir ucundan girip diğer ucundan çıkacağız. Eğlenceli olanla
 
 YZ dünyasıyla ilgili öğrendim ki, insanların şaşırtıcı derecede büyük bir çoğunluğu burada bulunuyor:
 
-![SC14](/assets/images/posts/2017051501/sc14.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC14](/assets/images/posts/2017060801/sc14.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Emin Köşe'deki insanlar heyecan dolu. Gözlerini kalasın eğlenceli kısmına dikmiş durumdalar ve oraya doğru ilerlediğimizden eminler. Onlar için gelecek, şimdiye kadar umut edebilecekleri her şey, hem de tam zamanında.
 
@@ -288,17 +288,17 @@ bir şey
 
 Bu insanlar buralarda bir yerde olma eğilimi gösteriyordu:
 
-![SC15](/assets/images/posts/2017051501/sc15.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC15](/assets/images/posts/2017060801/sc15.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Kaygılı Cadde'deki insanlar Panik Çayırları veya Umutsuz Tepeler'de değiller—bu bölgelerin ikisi de çizelgenin en sol kısımlarında—, ama endişeli ve gerginler. Çizelgenin ortasında olmanız, YSZ'nin gelişinin etkisiz anlamına gelmiyor—nötrlerin kendi tarafları var—. Son derece iyi ihtimallerin de, son derece kötü ihtimallerin de mantıklı geldiği fakat hangisinin yaşanacağından emin olmadığınız anlamına geliyor.
 
 Tüm bu insanların bir kısmı Yapay Süperzeka'nın bizim için yapabileceği şeyleri düşününce heyecanla dolup taşıyor, sadece endişelendikleri bir nokta var. Bu, Kutsal Hazine Avcıları'nın başı ve insan ırkı bu herif olabilir:
 
-![SC16](/assets/images/posts/2017051501/sc16.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC16](/assets/images/posts/2017060801/sc16.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Kırbacı ve idolüyle gayet memun duruyor, her şeyin farkında olduğunu düşünüyor, ve “Adios Señor” repliğini söylediğinde kendinden çok etkilenmiş görünüyor, ve sonra bu yaşandığında o kadar da etkilenmiş görünmüyor.
 
-![SC17](/assets/images/posts/2017051501/sc17.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC17](/assets/images/posts/2017060801/sc17.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 (Pardon)
 
@@ -314,7 +314,7 @@ Varoluşsal risk.
 
 Varoluşsal risk, insanlık üzerinde kalıcı ve yıkıcı bir etkisi olabilecek bir şeydir. Tipik olarak varoluşsal risk demek soyumuzun tükenmesi demek. Bostrom'un verdiği bir Google konuşmasından olan şu çizelgeyi bir inceleyin:
 
-![SC18](/assets/images/posts/2017051501/sc18.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC18](/assets/images/posts/2017060801/sc18.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 “Varoluşsal risk” etiketi gördüğünüz üzere türün tamamını kapsayan, tüm nesilleri kapsayan  (diğer bir deyişle kalıcı olan) ve sonuçları yıkıcı veya öldürücü olan bir şey için ayırılmış durumda. Teknik olarak tüm insanların kalıcı olarak acı veya işkence çektiği bir durumu kapsıyor, ama dediğim gibi genellikle yok olmaktan bahsediyoruz. İnsanların başına varoluşsal bir felaket getirebilecek üç şey var:
 
@@ -382,7 +382,7 @@ O sırada Robotica ofisinde, Turry çalışıyor. Sonraki birkaç ay içinde, Tu
 
 Turry sonra görevinin yeni bir bölümü üzerinde çalışmaya başlıyor—diğer gezegenlere ve asteroitlere giden uzay araçları inşa etmeye başlıyor. Ulaştıklarında, gezegendeki malzemeleri Turry kopyalarına, kağıtlara ve kalemlere dönüşterecek olan nanomontajcılar inşa etmeye koyuluyorlar. Sonra onlar da çalışmaya başlıyor, notlar yazmaya…
 
-![SC19](/assets/images/posts/2017051501/sc19.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC19](/assets/images/posts/2017060801/sc19.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 İlginç. İnsanlara düşman kesilen, bir şekilde herkesi öldüren, sonra bir sebepten dolayı galaksiyi arkadaş canlısı notlarla dolduran bir el yazısı makinesiyle ilgili bu hikaye, tam da Hawking, Musk, Gates ve Bostrom'un korktuğu türden bir senaryo. Ama gerçek. Ve Kaygılı Cadde'deki herkesi YSZ'den daha çok korkutan tek şey, sizin YSZ'den korkmuyor olmanız. Adios Señor mağaradan korkmadığında başına ne geldi hatırlıyorsunuz, değil mi?
 
@@ -532,7 +532,7 @@ Bu insanlık tarihindeki en önemli yarış olabilir. Dünya'nın Kralı olarak 
 
 Bir yandan, türümüz hakkında düşündüğümde bunu doğru yapmak için yalnızca ve yalnızca tek şansımız var. Doğuracağımız ilk YSZ muhtemelen sonuncu da olacak—ve çoğu 1.0 ürünün ne kadar hata dolu olduğunu düşünürsek, bu oldukça korkunç. Öte yandan, Nick Bostrom köşemizdeki büyük avantaja dikkat çekiyor: ilk hamleyi biz yapıyoruz. Kendimize yüksek bir başarı şansı vermek için bunu gerekli dikkat ve öngörüyle yapmak bizim elimizde. Şanslarımız ne durumda peki?
 
-![SC20](/assets/images/posts/2017051501/sc20.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC20](/assets/images/posts/2017060801/sc20.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Eğer YSZ gerçekten bu yüzyıl içinde gerçekleşirse ve sonucu gerçekten çoğu uzmanın düşündüğü kadar çarpıcı—ve kalıcı—ysa, üstümüzde devasa bir sorumluluk var. Önümüzdeki milyon+ yıllık insan hayatlarının hepsi sessizce bize bakıyor ve bunu batırmamamızı umuyor. Gelecekteki tüm insanlara yaşam armağanını, hatta belki de acısız ve sonsuz bir yaşam armağanını verme şansına sahibiz. Veya batırmaktan sorumlu insanlar olacağız—bu inanılmaz derecede özel türü, müziği ve sanatıyla, merakı ve kahkahalarıyla, sonsuz buluşları ve icatlarıyla, hüzünlü ve teklifsizce bir sona getirmekten sorumlu insanlar.
 
@@ -546,7 +546,7 @@ Ama sonraaaaaa
 
 Ve spektrum şöyle görünmeye başlıyor:
 
-![SC21](/assets/images/posts/2017051501/sc21.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC21](/assets/images/posts/2017060801/sc21.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Sonra insanlığın müziği ve sanatının iyi olduğunu, ama o kadar da iyi olmadığını ve birçoğunun aslında kötü olduğunu düşünmeye başlıyorum sanki. Sonra birçok insanın kahkahasının sinir bozucu olduğunu ve o gelecekteki o milyonlarca hayatın aslında bir şey ummadıklarını, çünkü var olmadıklarını. Ve belki o kadar da dikkatli olmamız gerekmiyorduk, çünkü kim gerçekten bunu yapmak istiyor ki?
 
