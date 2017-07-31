@@ -6,7 +6,7 @@ tags: [Türkçe, Microsoft, Azure, Azure SQL DB, SQL DB, Veritabanı,  Database,
 description: Azure Portal kullanarak Azure SQL DB oluşturma ve kullanma.
 ---
 
-Bu yazımda araç olarak sadece **Azure Portal** kullanacağım. **Azure SQLDB** oluşturup, veritabanını nasıl sorgulayabileceğimizi anlatacağım.
+Bu yazımda **Azure Portal** üzerinden **Azure SQLDB** oluşturup, veritabanının yine portal üzerinden nasıl sorgulanacağını anlatacağım.
 
 ### Gerekenler
 
