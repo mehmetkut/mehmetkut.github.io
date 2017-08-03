@@ -52,9 +52,9 @@ VSTS ve Azure'da oturum açmak için aynı hesabı kullanıyorsanız, entegrasyo
 
 2. **Subscription** bu alanda VSTS ile giriş yaptığınız kullanıcıya bağlı Azure abonelikleriniz listelenecek uygun olanı seçin.
 
->Eğer burada Azure aboneliği görmüyorsanız hesabınıza bağlı bir Azure aboneliğiniz yok. İkinci senaryoyu takip etmelisiniz.
-
 3. **OK** butonuna tıklıyoruz.
+
+>Eğer burada Azure aboneliği görmüyorsanız hesabınıza bağlı bir Azure aboneliğiniz yok. İkinci senaryoyu takip etmelisiniz.
 
 
 Bu noktadan sonra hesabımız eğer seçtiğimi Azure aboneliğinde **Global Admin** yetkisine sahipsek eklenecektir. 
@@ -67,7 +67,7 @@ Bu hatayı alırsanız iki seçeneğiniz var.
 
 1. Hesabınızın rolü Azure üzerinde **Global Admin** değil hesabınızı **Global Admin** e çevirtebiliyorsanız bunu yapın sonra bu senaryodaki adımları tekrarlayın.
 
-2. İkinci senaryoya geçin.
+2. İkinci senaryodan devam edin.
 
 -----
 
