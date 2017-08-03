@@ -17,7 +17,7 @@ VSTS ARM endpoint entegrasyonu oluşturmak için iki senaryomuz var.
 
 -----
 
-# Azure ve VSTS oturum açmak için **aynı hesabı** kullanıyorsanız.
+### Azure ve VSTS oturum açmak için **aynı hesabı** kullanıyorsanız.
 
 VSTS ve Azure'da oturum açmak için aynı hesabı kullanıyorsanız, entegrasyon oldukça kolay.
 
@@ -71,13 +71,13 @@ Bu hatayı alırsanız iki seçeneğiniz var.
 
 -----
 
-# Azure ve VSTS oturum açmak için **farklı hesap** kullanıyorsanız.
+### Azure ve VSTS oturum açmak için **farklı hesap** kullanıyorsanız.
 
 Bu senaryoda Azure Active Directory Service Principal Name (SPN) ile VSTS ve Azure arasındaki bağlantıyı kuracağız. 
 
 -----
 
-## Gerekenler
+### Gerekenler
 
 1. Azure Power Shell
 
@@ -212,4 +212,4 @@ PowerShell script çalıştıktan sonra aşağıdakine benzer bir ekran çıktı
 
 -----
 
-Artık VSTS içinde özellikle Continuous Deployment yaparken end point kısmında **AzureSPNIntegration** çıkacak ve Azure hesabımıza kolaylıkla dağıtım yapabileceğiz. 😄
+Artık VSTS içinde özellikle Continuous Deployment yaparken endpoint kısmında **AzureSPNIntegration** çıkacak ve Azure hesabımıza kolaylıkla dağıtım yapabileceğiz. 😄
