@@ -7,7 +7,7 @@ description: Blog yazılarım üzerine bir blog yazısı. (Recursive)
 ---
 
 Uzun bir sessizliğin ardından bir süre önce blog yazmaya tekrar başladım.
-Bu süre içerisinde özellikle Microsoft bulut teknolojileri ve yapay zeka ile alakalı çeşitli paylaşımlarım oldu.
+Bu süre içerisinde özellikle Microsoft bulut teknolojileri(Microsoft Azure) ve yapay zeka ile alakalı çeşitli paylaşımlarım oldu.
 
 Kabul ediyorum yazılarım biraz uzun. Okuyucunun yani en başta **kendimin** en ufak detayı kaçırmasını istemediğimden elimden geldiğince detaylı Türkçe kaynak oluşturmaya çalışıyorum. Arada İngilizce paylaşımlarımda oluyor. İlgili kitleye erişebilmek içinde Twitter başta olmak üzere Facebook ve Linkedin mecralarını sıklıkla kullanmaktayım.
 
@@ -96,7 +96,7 @@ Açıkçası bu yazıya ilginin çok fazla olacağını düşünmedim ancak, yaz
 
 Bu **Türkçe** yazıyı fark etmekle kalmadı tekrar tweetlemesi beni oldukça şaşırttı.
 
-![Recursive03](/assets/images/posts/2017080401/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![Recursive06](/assets/images/posts/2017080401/sc06.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Bunları yazdığım esnada henüz bu retweetin dumanı üzerinde bakalım istatistikler önümüzdeki günlerde neler gösterecek. 
 
