@@ -57,7 +57,7 @@ Açıkçası tahmin etmediğim bir ilgi ile karşılaştım.
 
 ![Recursive02](/assets/images/posts/2017080401/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-Gördüğünüz gibi en tepede olduğu gün **276** kişi tarafından ziyaret edilmiş.
+En tepede olduğu gün **276** kişi tarafından ziyaret edilmiş.
 
 Twitter üzerinden bir kaç kişi yazımı daha üst kitlelere hitap eden kişilere göndermiş ve **David Fowler**'dan ilk retweet imi aldım 😄
 
