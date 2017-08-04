@@ -37,8 +37,12 @@ Yazıyı yayımladığım tarih **29 Mayıs 2017** o zamandan **4 Ağustos 2017*
 
 ![Recursive01](/assets/images/posts/2017080401/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-En tepede olduğu gün: **17** kişi tarafından ziyaret edilmiş. Bu sosyal mecralarda paylaştığım gün
+En tepede olduğu gün **17** kişi tarafından ziyaret edilmiş. 
+
+Bu sosyal mecralarda paylaştığım gün
+
 Toplam ziyaret: **55** kişi.
+
 Hemen çıkma yüzdesi: %83,33
 
 Bu yazı ile tahmini olarak Türkiye'den 10 kişiye yardımcı olmuşum sonucunu çıkartabiliriz. Bu yazı için sayı benim için oldukça tatmin edici diyebiliriz.
