@@ -37,9 +37,7 @@ Yazıyı yayımladığım tarih **29 Mayıs 2017** o zamandan **4 Ağustos 2017*
 
 ![Recursive01](/assets/images/posts/2017080401/sc01.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-En tepede olduğu gün **17** kişi tarafından ziyaret edilmiş. 
-
-Bu sosyal mecralarda paylaştığım gün
+En tepede olduğu gün **17** kişi tarafından ziyaret edilmiş yani sosyal mecralarda paylaştığım gün.
 
 Toplam ziyaret: **55** kişi.
 
@@ -63,7 +61,7 @@ Gördüğünüz gibi en tepede olduğu gün **276** kişi tarafından ziyaret ed
 
 Twitter üzerinden bir kaç kişi yazımı daha üst kitlelere hitap eden kişilere göndermiş ve **David Fowler**'dan ilk retweet imi aldım 😄
 
-![Recursive04](/assets/images/posts/2017080401/sc04.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![Recursive03](/assets/images/posts/2017080401/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Yukarıda gördüğünüz gibi yazım **David Fowler**'a öneriliyor.
 
@@ -71,9 +69,13 @@ Yukarıda gördüğünüz gibi yazım **David Fowler**'a öneriliyor.
 
 ve **David Fowler**'dan retweet
 
-![Recursive03](/assets/images/posts/2017080401/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
+![Recursive05](/assets/images/posts/2017080401/sc05.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 **David Fowler**, ASP.NET takımında, SignalR projesini tasarlayıp kodlayan ve ASP.NET Core projesinde mimar olan Microsoft çalışanı bir arkadaş.
+
+Retweet sonrası tweeter istatistikleri
+
+![Recursive04](/assets/images/posts/2017080401/sc04.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
 Takipçileri oldukça fazla olduğu için yazı bir anda globalde istediğim kitleye erişmiş oldu. Açıkçası bu güzel bir motivasyon kaynağı. 😄
 
