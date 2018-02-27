@@ -18,7 +18,7 @@ Katılımcı iş ortaklarına yeni konularda yardımcı olmak ve yeni şeyler ke
 
 İkinci gün ise uçtan uca bir **Visual Studio Team System** sunumu yapma fırsatı buldum.
 
-![SC03](/assets/images/posts/2018022701/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC03](/assets/images/posts/2018022701/sc03.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Orgnizasyonda emeği geçen herkese ve özellikle **Toros Gökkurt** ve **Buket Nazlıcan**'a ayrıca tekar teşekkür ediyorum. 😄
 
