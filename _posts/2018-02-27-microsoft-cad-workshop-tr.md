@@ -14,11 +14,11 @@ Katılımcı iş ortaklarına yeni konularda yardımcı olmak ve yeni şeyler ke
 
 İlk gün **Azure Management Libraries**, **Azure Functions** konusunda sunum ve demo yaptım.
 
-![SC02](/assets/images/posts/2017051001/sc02.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC02](/assets/images/posts/2018022701/sc02.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 İkinci gün ise uçtan uca bir **Visual Studio Team System** sunumu yapma fırsatı buldum.
 
-![SC03](/assets/images/posts/2017051001/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+![SC03](/assets/images/posts/2018022701/sc03.png){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Orgnizasyonda emeği geçen herkese ve özellikle **Toros Gökkurt** ve **Buket Nazlıcan**'a ayrıca tekar teşekkür ediyorum. 😄
 
