@@ -3,8 +3,8 @@ param
     [Parameter(Mandatory=$true, HelpMessage="Enter Azure Subscription name. You need to be Subscription Admin to execute the script")]
     [string] $subscriptionName,
 
-    [Parameter(Mandatory=$true, HelpMessage="Provide a password for SPN application that you would create")]
-    [string] $password,
+    [Parameter(Mandatory=$true, HelpMessage="Provide a password for SPN application that you would create; this becomes the service principal's security key")]
+    [securestring] $password,
 
     [Parameter(Mandatory=$false, HelpMessage="Provide a SPN role assignment")]
     [string] $spnRole = "owner",
@@ -13,12 +13,41 @@ param
     [string] $environmentName = "AzureCloud"
 )
 
+function Get-AzureCmdletsVersion
+{
+    $module = Get-Module AzureRM -ListAvailable
+    if($module)
+    {
+        return ($module).Version
+    }
+    return (Get-Module Azure -ListAvailable).Version
+}
+
+function Get-Password
+{
+    $currentAzurePSVersion = Get-AzureCmdletsVersion
+    $azureVersion511 = New-Object System.Version(5, 1, 1)
+
+    if($currentAzurePSVersion -and $currentAzurePSVersion -ge $azureVersion511)
+    {
+        return $password
+    }
+    else
+    {
+        $basicPassword = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password)
+        $plainPassword = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($basicPassword)
+        [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($basicPassword)
+
+        return $plainPassword
+    }
+}
+
 #Initialize
 $ErrorActionPreference = "Stop"
 $VerbosePreference = "SilentlyContinue"
-$userName = $env:USERNAME
+$userName = ($env:USERNAME).Replace(' ', '')
 $newguid = [guid]::NewGuid()
-$displayName = [String]::Format("VSO.{0}.{1}", $userName, $newguid)
+$displayName = [String]::Format("VSTS.{0}.{1}", $userName, $newguid)
 $homePage = "http://" + $displayName
 $identifierUri = $homePage
 
@@ -42,6 +71,7 @@ $id = $azureSubscription.SubscriptionId
 
 #Create a new AD Application
 Write-Output "Creating a new Application in AAD (App URI - $identifierUri)" -Verbose
+#$password = Get-Password
 $azureAdApplication = New-AzureRmADApplication -DisplayName $displayName -HomePage $homePage -IdentifierUris $identifierUri -Password $password -Verbose
 $appId = $azureAdApplication.ApplicationId
 Write-Output "Azure AAD Application creation completed successfully (Application Id: $appId)" -Verbose
@@ -66,6 +96,7 @@ Write-Output "SPN role assignment completed successfully" -Verbose
 Write-Output "`nCopy and Paste below values for Service Connection" -Verbose
 Write-Output "***************************************************************************"
 Write-Output "Connection Name: $connectionName(SPN)"
+Write-Output "Environment: $environmentName"
 Write-Output "Subscription Id: $id"
 Write-Output "Subscription Name: $connectionName"
 Write-Output "Service Principal Id: $appId"
