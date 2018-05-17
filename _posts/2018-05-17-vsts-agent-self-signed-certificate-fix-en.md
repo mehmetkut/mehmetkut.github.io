@@ -26,10 +26,11 @@ The error is:
 2018-05-15T19:16:46.2595096Z ##[error]Error: self signed certificate in certificate chain
 ```
 
-1. To remove the agent:
+- To remove the agent:
 
-c:/vstsagent/a1> .\config.cmd remove
-2. Then get your corp SSL certificate(.pem file) and put it in the root folder of the agent i.e. c:\vsts\a1 in my case. 
+c:\vstsagent\a1> .\config.cmd remove
+
+- Then get your corp SSL certificate(.pem file) and put it in the root folder of the agent i.e. c:\vsts\a1 in my case. 
 
 To get the .pem file:
 
@@ -44,9 +45,9 @@ like ca.pem.
 
 -----END CERTIFICATE-----
 
-3. Run the config command again (to configure the agent again with the sslcacert param and anything else you need)
+- Run the config command again (to configure the agent again with the sslcacert param and anything else you need)
 
-```
+```powershell
 .\config.cmd --sslcacert ca.pem --deploymentgroup --deploymentgroupname "deployment-group-name" --agent $env:COMPUTERNAME 
 --runasservice --work '_work' --url 'https://yourcorpname.visualstudio.com/' --projectname 'your-project-name' --auth PAT --token YOURPATTOKENHERE;
 ```
