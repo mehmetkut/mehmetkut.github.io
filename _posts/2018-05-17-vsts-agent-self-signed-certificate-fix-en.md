@@ -8,7 +8,7 @@ description: Fix for, VSTS agent failed in getBuild with error Error self signed
 
 If you are getting error like this, good news you are reading right blog article 😄
 
-
+```
 The automated CD deployment is failing on the Release since this morning. It was working fine earlier.
 The error is:
 2018-05-15T19:16:29.5467063Z ==============================================================================
@@ -24,7 +24,7 @@ The error is:
 2018-05-15T19:16:42.2213719Z Error : in getBuild, so retrying => retries pending : 1
 2018-05-15T19:16:46.2409057Z ##[error]Failed in getBuild with error: Error: self signed certificate in certificate chain
 2018-05-15T19:16:46.2595096Z ##[error]Error: self signed certificate in certificate chain
----
+```
 
 1. To remove the agent:
 c:/vstsagent/a1> .\config.cmd remove
