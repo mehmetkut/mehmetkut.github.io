@@ -27,18 +27,28 @@ The error is:
 ```
 
 1. To remove the agent:
+
 c:/vstsagent/a1> .\config.cmd remove
+2. Then get your corp SSL certificate(.pem file) and put it in the root folder of the agent i.e. c:\vsts\a1 in my case. 
 
-2. Then get your corp SSL certificate(.pem file) and put it in the root folder of the agent i.e. c:\vsts\a1 in my case. To get the .pem file:
+To get the .pem file:
 
-Export CA cert from Trusted Root CA Store, use Base64 Encoding X.509 (.CER) format, name the export cert to something like ca.pem.
+Export CA cert from Trusted Root CA Store, use Base64 Encoding X.509 (.CER) format, name the export cert to something 
+like ca.pem.
 
 **Your ca.pem might looks like following:**
+
 -----BEGIN CERTIFICATE-----
+
 (Your Root CA certificate: ca.pem)
+
 -----END CERTIFICATE-----
 
 3. Run the config command again (to configure the agent again with the sslcacert param and anything else you need)
-.\config.cmd --sslcacert ca.pem --deploymentgroup --deploymentgroupname "deployment-group-name" --agent $env:COMPUTERNAME --runasservice --work '_work' --url 'https://yourcorpname.visualstudio.com/' --projectname 'your-project-name' --auth PAT --token YOURPATTOKENHERE;
+
+```
+.\config.cmd --sslcacert ca.pem --deploymentgroup --deploymentgroupname "deployment-group-name" --agent $env:COMPUTERNAME 
+--runasservice --work '_work' --url 'https://yourcorpname.visualstudio.com/' --projectname 'your-project-name' --auth PAT --token YOURPATTOKENHERE;
+```
 
 and that's all error fixed.
