@@ -39,10 +39,10 @@ Programı MoonStar firması tarafından hazırlandı.
 
 Program, denetlenmesi istenen metni hazırlarayarak yazım hatalarını ortaya çıkarıyor ve bulduğu hataların düzeltilmesi için kullanıcıya seçenekler sunuyor. 
 
-Kullanıcı ayrıca özel isim, şapka koyma ve bileşik isimleri denetleme gibi konularda kendi seçeneklerini metne yansıtabiliyor. Hatta Türkçe'nin tartışmalı sözcüklerine ilişkin seçenekleri metin yazanın bilgisine sunuyor. 
+Kullanıcı ayrıca özel isim, şapka koyma ve bileşik isimleri denetleme gibi konularda kendi seçeneklerini metne yansıtabiliyor. Hatta Türkçe'nin tartışmalı sözcüklerine ilişkin seçenekleri metin yazarının bilgisine sunuyor. 
 
 Programı piyasaya süren MoonStar Bilgisayar Müşavirlik ve Yazılım A.Ş.'nin Yönetim Kurulu Başkanı
-Müjdat Özalp. "Hata düzeltmek için harcanan zaman artık yaratıcılığa ayrılabilecek"diyor.
+Müjdat Özalp. "Hata düzeltmek için harcanan zaman artık yaratıcılığa ayrılabilecek" diyor.
 
 Özalp'in konuyla ilgili olarak sorularımıza verdiği yanıtlar şöyle:
 
@@ -56,7 +56,7 @@ Daha sonra kelime işlem programlarının yeni versiyonlarını ve ek olarak "de
 
 Bu geçen 4-5 sene içinde yapısını hazırlamamıza rağmen bu konuyla ilgili araştırma yapmaya fırsat bulamadık. 
 Bundan dört ay önce Boğaziçi Üniversitesi'nden bir arkadaşımız bu konuda altı yıl çalıştığını, algoritma olarak ortaya bazı 
-şeyler çıkarttığını ve 30-35 bin kelimenin analizini yaptığını bizim bu konuyla ilgılenip ilgilenemeyeceğimizi sordu. 
+şeyler çıkarttığını ve 30-35 bin kelimenin analizini yaptığını bizim bu konuyla ilgilenip ilgilenemeyeceğimizi sordu. 
 
 Arkadaşımızla ticari bir anlaşma yaptık ve ondan bu algoritmayı satın aldık.
 Tabii olan sadece kağıt üzerindeydi. Bütün projelerimizi iptal edip son üç ayımızda bu algoritmayı 
@@ -64,14 +64,12 @@ programa çevirme üzerinde yoğunlaştı ve bu program ortaya çıktı.
 
 - Bu programın özellikleri, iddiası nedir?
 
-**ÖZALP** -Öncelikle şunu vurgulamak istiyorum. Bu program Türkçe'deki ilk tashih programıdır. Bir yazının hatalanndan arındınlması zaman alıcı ve maliyet arttırıcı bir olay. Biz inanıyoruzki bizim bu programımızla bu işin maliyeti minimum seviyelere çekilecek. Atlamalanın önüne geçilebilecek. 
-İnsanlar hata düzeltmekle harcadıkları vakti tekrar yaratıcılığa aktarabilecekler.
+**ÖZALP** -Öncelikle şunu vurgulamak istiyorum. Bu program Türkçe'deki ilk tashih programıdır. Bir yazının hatalanndan arındınlması zaman alıcı ve maliyet arttırıcı bir olay. Biz inanıyoruzki bizim bu programımızla bu işin maliyeti minimum seviyelere çekilecek. Hataların önüne geçilebilecek.  İnsanlar hata düzeltmekle harcadıkları vakti tekrar yaratıcılığa aktarabilecekler.
 
 - Programın hata denetleme hızı nedir?
 
-**ÖZALP** - Ortalama 16 mhz'lik bir işlemci kullanıdığını düşünürsek, böyle bir makinada 10 sayfalık bit metni tarayıp hatalannı bulmak en fazla 
-5-10 dakikalık bir iştir. Halbuki siz bunu okuyarak yapmaya kalksanız, bir kişinin iki kez dikkatlice okuduğunu düşünürsek en az 15
-dakikanızı, en fazla bir saatinizi alacaktır. Bunu 301 sayfalık bir kitap için yapiığınızda fark daha çarpıcı bir biçimde çıkar ortaya.
+**ÖZALP** - Ortalama 16 mhz'lik bir işlemci kullanıdığını düşünürsek, böyle bir makinada 10 sayfalık bit metni tarayıp hatalannı bulmak en fazla 5-10 dakikalık bir iştir. Halbuki siz bunu okuyarak yapmaya kalksanız, bir kişinin iki kez dikkatlice okuduğunu düşünürsek en az 15
+dakikanızı, en fazla bir saatinizi alacaktır. Bunu 300 sayfalık bir kitap için yapiığınızda fark daha çarpıcı bir biçimde çıkar ortaya.
 
 - Bu beş-on dakika içinde hatalann yüzde kaçı yakalanıyor?
 
@@ -89,12 +87,12 @@ Aynca 5 bin kadar da fiillere ve isimlere gelen takılar var. Türkçenin yapıs
 Atatürk Dil Tarih Yüksek Kurumunca oluşturulan iki ayrı imla kılavuzunu ve sözlüğü de kullandık. Aynca Ana Yazım Kılavuzu'nu da yükledik. 
 Her üç kılavuzdaki sözcükler programın datası içinde var.
 
-- Türkçede bazı tartışmalı sözcükler var. Program. denetleme işlemi sırasında bu tartışmalı sözcüklerde nasıl davranıyor?
+- Türkçede bazı tartışmalı sözcükler var. Program denetleme işlemi sırasında bu tartışmalı sözcüklerde nasıl davranıyor?
 
 **ÖZALP** - Bu tartışmalara girmemek için iki karşıt kanadın savunduğu fikirleri biz programın içinde opsiyon olarak koymaya çalıştık. 
 Örneğin en tartışmalı konu, bileşik isimler. Bu tamamen tercihe bağlanmış durumda. 
 Benzer bir şekilde şapka kullanılması ve özel isim yumuşaması da tercihe bağlanmış durumda. 
-Aynca program hiçbit şeyi size zorla benimsetemez. Programın yapacağı size öneri getirmektir. Ayrıca bu tip sözcükler de yüzde 10'u aşmaz.
+Ayrıca program hiçbir şeyi size zorla benimsetemez. Programın yapacağı size öneri getirmektir. Bu tip sözcükler de yüzde 10'u aşmaz.
 
 
 -----
@@ -103,6 +101,9 @@ Gazete yazısı burada bitiyor.
 
 Yazıda benim teknik olarak dikkatimi çeken bu yazılım 16 bit bir sistemde ortalama 16Mhz işlemciye göre yazılmış olması.
 Şu anki cep telefonlarımızın bu ortalama işlemci hızından yüzlerce kat daha hızlı olduğunu belirtmemizde fayda var.
+Ek olarak Müjdat abinin bitirirken kullandığı cümlede önemli 
+
+**Ayrıca program hiçbir şeyi size zorla benimsetemez. Programın yapacağı size öneri getirmektir. **
 
 
 -----
