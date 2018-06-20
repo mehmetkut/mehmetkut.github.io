@@ -6,11 +6,15 @@ tags: [MoonStar, MoonStar Sözlük, Türkiye, Sözlük, Tarihçe]
 description: Moonstar sözlük ve Müjdat Özalp anısına.
 ---
 
+![SC01](/assets/images/posts/2018062001/sc01.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+
 Bu blog yazım ve alıntılar, Y ve Z kuşağı üzerinde dolaylı şekilde oldukça fazla emeği olan **Müjdat Özalp** ve onun 
 ürettiği 2018 yılı itibarı ile 26.yaşına girmiş güzel yazılım **MoonStar Sözlük** üzerine. 
 
 Uygulamayı bahsettiğim kuşaktan herkes bilir.
 Hikayesinide herkes bilsin istedim.
+
+![SC01](/assets/images/posts/2018062001/sc02.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Öncelikle MoonStar Sözlük nedir, geliştiricisi Müjdat Özalp'ın ağzından dinleyelim.
 
@@ -27,6 +31,8 @@ yazılmış metinleri hatalarından arındıran bir program gelişlirdi.
 Türkçe Yazım Denetim Programı on sayfalık bir metnin hatalarını en fazla on dakika içinde saptayarak düzeltiyor. 
 Program, 30 bin kök sözcük ve 5 bin takıdan oluşan bir ana sözlük ile kullanım dışı olanlar da dahil yaklaşık 10 milyar 
 sözcüğün denetimini yapabiliyor.
+
+![SC01](/assets/images/posts/2018062001/sc03.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Altı yıllık bir çalışmanın sonucunda gerçekleştirilen ve tamamen yerli programcıların eseri olan Türkçe Yazım Denetim
 Programı MoonStar firması tarafından hazırlandı. 
@@ -107,6 +113,8 @@ Bu yazıyı hazırlarken, elimde birikmiş malzemeleri kullanmaya başladım. Bi
 
 Çünkü, aldığım duyumlara göre, bilgi teknolojisi ile ilgili kısımların olmadığı yazılar bazen okunmadan atlanabiliyor. Onun için, biliniz ki, bu yazıda bilgi teknolojisi ile ilgili çok fazla şey yok. Sadece, ilk bölümdeki, “Moonstar” kısmını atlamayın. Önümüzdeki hafta, özellikle, kurultay ve fuar izlenimlerimi aktaracağım yazıyla,.bilgi teknolojilerine kaldığımız yerden devam ederiz. 
 
+![SC01](/assets/images/posts/2018062001/sc04.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
+
 Çok çok uzun zamandır kullandığım, fakat, sizlere duyurmadığım bir yazılım var. Benim o kadar çok işime yarıyor ki, herkesin bildiğini düşündüğüm için yazmamıştım. Ancak, bilen kadar, bilmeyen olmadığını gördüğümden, değinmem gerektiği ortaya çıktı.
 
 “Moonstar” şirketini, kişisel bilgisayarlarda masa üstü yayıncılık yapanlar, Türkçe kelime işlem programı kullananlar bilir. Moonstar’ın bir de, “Türkçe Denetim Kılavuzu” isimli bir yazılımı mevcut. Bilgisayar’da çok az yer tutan bu yazılım aracılığı ile, hazırladığım yazıların, Türkçe imla kurallarına uygun olmasını, “Türkçe Denetim” seçeneği aracılığı ile sağlamaya çalışıyorum. Gözden kaçan öyle ilginç noktalar yakalıyor ki, inanılmaz bir zaman kazancı sağlıyor. Ayrıca, Türkçe-İngilizce ve İngilizce-Türkçe sözlük mevcut.
@@ -120,6 +128,8 @@ Yanında bir de, eş anlamlılara ulaşabiliyorsunuz. Bilgisayar başından ayr�
 1980'li yıllarda idik. Bilgisayarla ilgilenen kişi sayısı bugünlerdeki kadar çok değildi. O sıralarda bilgi teknolojisi sektörü çalışanları da bu kadar çok değildi. Bir gün aileden birileri bir haber getirdi. "Müjdat Özalp" isminde bir kişinin "Moonstar" isimli program geliştirdiği bir firması varmış. Eğer istersem tanıştırabileceklermiş.
 
 O zamanlar bilgisayarla ilgilenen kişileri bulmak kolay değil. Hemen kabul ettim. Şişli'nin arkalarında bir yere gittik. Dar ve uzun bir koridordan girilen yerin arkasında büyük bir oda ve odada bilgisayarlar. O dönemler bulunması zor olan taşınabilir bir bilgisayar. Müjdat, o bilgisayarın başında, sabahtan akşama program geliştirmekte. İlk duyduğum "Un fabrikalarının yönetimi için bir program". Ayrıca, bir masa üstü yayıncılık programı olan; DOS işletim sisteminde çalışan, "Moonstar" var. O dönemlerin popüler kelime işlemcisi "Wordstar". Ayrıca masa üstü yayıncılıkta ortalık Macintosh'tan geçilmiyor. Bunlar varken, herkes ticari paketlerle uğraşırken, "Niye birisi çıkmış, bu konularda çalışacak Türkçe program üretmeye çalışıyor?" diye kendi kendime sormuştum. Üstelik, programlama dili olarak yeni programcı kuşaklarının ellerini sürmediği "Assembler" kullanıyordu. Sürekli de aynı şeyi yaptı.
+
+![SC01](/assets/images/posts/2018062001/sc05.jpg){: class="jslghtbx-thmb jslghtbx-animate-transition" data-jslghtbx="" }
 
 Ardından, ürünlerini, Microsoft Windows ortamına taşımaya başladı. Bu arada Almanya'daki CeBIT fuarına yaklaşık on sene önce kendi olanakları ile katıldı. Yurt dışında bir fuara katılan ilk Türk firmalarındandı. En sonunda, bir gün bir başka programdan bahsetti. Türkçe dil kılavuzu gerçekleştirmişti. Kullanmam amacı ile verdi. 2.9.1997'de BT/Haber'deki yazımda;
 
