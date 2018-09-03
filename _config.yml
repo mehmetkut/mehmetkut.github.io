@@ -16,7 +16,7 @@ author:
   name:           'Mehmet Kut'
   url:            https://github.com/mehmetkut
 
-paginate:         1
+paginate:         20
 
 # Custom vars
 version:          2.1.0
