@@ -167,7 +167,7 @@ Local ortamda bulunan projemizi, Azure üzerinde çalıştırmak için gerekli a
 
 Tarayıcımızı açıyoruz.
 
-1. Adres satırına http://corpapi.azurewebsites.net/api/values yazıp enter a basıp sayfayı açıyoruz. Bu adres sizin app service adınıza göre değişecektir.
+1. Adres satırına https://corpapi.azurewebsites.net/api/values yazıp enter a basıp sayfayı açıyoruz. Bu adres sizin app service adınıza göre değişecektir.
 
 2. API çalışıyorsa ekrandaki gibi bir JSON çıktısı olacak.
 
@@ -295,7 +295,7 @@ Benzer şekilde bir native AAD uygulaması daha ekliyeceğiz. Bu sefer uygulamam
 
 2. **Application type** seçimini **Native** seçiyoruz. 
 
-3. **Sign-on URL** kısmına http://corpnativeapi.azure-mobile.net yazıyoruz.
+3. **Sign-on URL** kısmına https://corpnativeapi.azure-mobile.net yazıyoruz.
 
 4. **Create** butonuna tıklayarak uygulamamızı oluşturuyoruz.
 

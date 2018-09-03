@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://mehmetkut.com/sitemap.xml 
+Sitemap: https://mehmetkut.com/sitemap.xml 

@@ -48,7 +48,7 @@ $VerbosePreference = "SilentlyContinue"
 $userName = ($env:USERNAME).Replace(' ', '')
 $newguid = [guid]::NewGuid()
 $displayName = [String]::Format("VSTS.{0}.{1}", $userName, $newguid)
-$homePage = "http://" + $displayName
+$homePage = "https://" + $displayName
 $identifierUri = $homePage
 
 

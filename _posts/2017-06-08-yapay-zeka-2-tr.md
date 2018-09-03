@@ -6,7 +6,7 @@ tags: [Yapay Zeka, Cognitive, Zeka, AI]
 description: Yapay Zeka Devrimi -2- Ölümsüzlüğümüz veya Sonumuz
 ---
 
-Not: Yapay Zeka hakkında iki bölümlük bir yazının 2. bölümü bu. [Bölüm 1 burada.](http://mehmetkut.com/2017/06/yapay-zeka-1-tr/ "Bölüm 1 burada.")
+Not: Yapay Zeka hakkında iki bölümlük bir yazının 2. bölümü bu. [Bölüm 1 burada.](https://mehmetkut.com/2017/06/yapay-zeka-1-tr/ "Bölüm 1 burada.")
 
 > Elimizde, muhtemelen insanlığın tüm geleceğinin bağlı olduğu, süresi belirsiz ve son derece zor bir problem var. — Nick Bostrom
 

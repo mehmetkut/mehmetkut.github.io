@@ -167,7 +167,7 @@ Open your browser.
 
 ![ASPNETCOREAADJWT12](/assets/images/posts/2017052901/sc12.png){: class="jslghtbx-thmb jslghtbx-animate-transition"  data-jslghtbx="" }
 
-1. At the address line type http://corpapi.azurewebsites.net/api/values and press enter. This address can be change according to your app service name.
+1. At the address line type https://corpapi.azurewebsites.net/api/values and press enter. This address can be change according to your app service name.
 
 2. If the API is working, it will be a JSON output like on screen.
 
@@ -293,7 +293,7 @@ We will add a native AAD application in a similar way. This time the type of our
 
 2. This time we select the **Application type** as **Native** application.
 
-3. For, **Sign-on URL** type http://corpnativeapi.azure-mobile.net . This might be different according to your native app name.
+3. For, **Sign-on URL** type https://corpnativeapi.azure-mobile.net . This might be different according to your native app name.
 
 4. Click **Create** button for create our native aad application.
 
