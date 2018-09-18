@@ -12,7 +12,7 @@ description: Azure DevOps (VSTS).
 
 Bununla beraber Microsoft, Ürünü beş bölüme ayırdı ve bunlarıda yeniden adlandırdı.
 
-Değişen isimler aşağıdaki gibi:
+**Değişen isimler aşağıdaki gibi:**
 
 Vsts 👉 **Azure Devops**
 
